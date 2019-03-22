@@ -1,0 +1,2552 @@
+<HTML>
+
+<p id="i"> Word </p>
+
+<button id="b1" onclick="f1()"> Op1 </button> <br>
+
+<button id="b2" onclick="f2()"> Op2 </button> <br>
+
+<button id="b3" onclick="f3()"> Op3 </button> <br>
+
+<p id="e"> </p>
+
+<p id="f"> </p>
+
+<p id="z"> </p>
+
+<button id="b4" onclick="f4()"> Review Errors </button> <br>
+
+<p id="er"> </p>
+
+<p id="icle"> </p>
+
+<script> 
+
+
+var words =  
+
+//Adjectives 
+
+[[["abbatial	"],["abbots or an abbey"
+]],[["abecedarian	"],["the order of the alphabet; rudimentary"
+]],[["abiectic	"],["fir trees or fir sap"
+]],[["absinthial	"],["wormwood; bitter"
+]],[["abyssopelagic	"],["the depths of the ocean"
+]],[["acarine	        "],["ticks or mites"
+]],[["accipitrine	"],["falcons and hawks"
+]],[["acerate	     "],[" of, like or resembling a needle"
+]],[["acolouthic	"],["an after-image or other after-sensation"
+]],[["acrologic	"],["initials"
+]],[["addititious	"],[" of, pertaining to or resulting from addition"
+]],[["adenoid	        "],["or like a gland"
+]],[["adipic	        "],["fatty substances"
+]],[["aeropleustic	"],["aerial navigation"
+]],[["aeruginous	"],["copper-rust or verdigris"
+]],[["aestival	"],["summer"
+]],[["agonistic	"],["or being aggressive or argumentative"
+]],[["agravic	"],[" having no gravity; pertaining to the condition of zero-gravity"
+]],[["agrestic	"],["of the fields; rural; unpolished"
+]],[["alar"],["the wing or shoulder"
+]],[["alaudine	"],["skylarks"
+]],[["alcine"],["elks; auks"
+]],[["aliphatic	"],["fat or fats in general"
+]],[["alliaceous	"],["garlic; garlicky"
+]],[["alopecoid	"],["of or resembling a fox"
+]],[["alpestrine	"],["alpine regions"
+]],[["alveolate	"],["of or like a honeycomb"
+]],[["alvine	    "],["of the belly"
+]],[["ampelidious	"],["vines"
+]],[["amphiscian	"],["torrid regions"
+]],[["amygdaloid	"],["almond-shaped; tonsils"
+]],[["amyloid"],["containing or pertaining to starch; starchy"
+]],[["anacardic	"],["cashews"
+]],[["anaclastic	"],["refractive; refraction"
+]],[["anatine"],["ducks"
+]],[["anconoid	"],["the elbow"
+]],[["ancoral"],["of, shaped like or resembling an anchor"
+]],[["anguine"],["snakes"
+]],[["anopheline	"],["malarial mosquitoes"
+]],[["anserine	"],["geese"
+]],[["apatetic	"],["of an animals coloration or markings"
+]],[["apian"],["bees"
+]],[["apiarian	"],["bees or beekeeping"
+]],[["apical"],["of or at the apex"
+]],[["aquiline	"],["eagles; hooked like an eagles beak"
+]],[["araneidan	"],["spiders"
+]],[["archididascalian	"],["headmasters"
+]],[["architectonics	"],["the arrangement of knowledge"
+]],[["areopagitic	"],["tribunals or courts"
+]],[["arietine	"],["rams"
+]],[["arval"],["ploughed land"
+]],[["asinine"],["asses; stupid"
+]],[["aularian	"],["a hall in a university"
+]],[["aurantiaceous	"],["of, like  or pertaining to oranges or orange trees"
+]],[["auricular	"],["the ear; spoken secretly"
+]],[["aval"],["a grandparent"
+]],[["avian"],["birds"
+]],[["avicular	"],["birds"
+]],[["avuncular	 "],["uncles"
+]],[["baculine	"],["the stick or cane; flogging"
+]],[["banausic	"],["materialistic; merely mechanical; pertaining to workshops"
+]],[["basial"],["kissing"
+]],[["bathyorographical	"],["depth underwater or elevation above sea level"
+]],[["bathysmal	"],["the depths of the ocean"
+]],[["batrachian	"],["frogs or toads"
+]],[["bdelloid	"],["leeches"
+]],[["benthic"],["the depths of the ocean"
+]],[["bibitory	"],["to drinking"
+]],[["binaural	"],["of, pertaining to or heard by both ears"
+]],[["bisontine	"],["bison"
+]],[["biverbal	"],["two words; having a double sense"
+]],[["blattoid	"],["cockroaches"
+]],[["blennoid	"],["of or resembling mucus"
+]],[["blepharal	"],["eyelids"
+]],[["bolar"],["clay"
+]],[["bombic"],["silkworms"
+]],[["bombycine	"],["silk or cotton"
+]],[["bovine"],["cows"
+]],[["branchial	"],["gills"
+]],[["brumal"],["winter"
+]],[["bubaline	"],["buffalo or antelopes"
+]],[["buccal"],["the mouth or cheek"
+]],[["bucolic"],["the tending of cattle; rustic; rural"
+]],[["burgensic	"],["a borough or its citizens"
+]],[["bursal"],["a states revenues"
+]],[["buteonine	"],["buzzards"
+]],[["butyric"],["butter"
+]],[["caballine	"],["or suited to a horse"
+]],[["cacuminal	"],["retroflex, pertaining to a point, crown, top or peak"
+]],[["calycine	"],["a cup or calyx"
+]],[["cameline	"],["camels"
+]],[["campestral	"],["the country; pertaining to level ground"
+]],[["cancellarial	"],["a chancellor"
+]],[["cancrine	"],["crabs; palindromic"
+]],[["canicular	"],["the dog star"
+]],[["canine"],["dogs"
+]],[["cantative	"],["singing"
+]],[["capitulary	"],["a chapter of an organization"
+]],[["capric"],["having a goatlike smell;goats"
+]],[["caprifoliaceous	"],["the honeysuckle plant"
+]],[["caprine"],["goats"
+]],[["carceral	"],["prisons"
+]],[["cardinalitial	"],["church cardinals"
+]],[["caricous	"],["figs"
+]],[["carious"],["dental cavities; decayed"
+]],[["carneous	"],["fleshy; flesh-coloured; like or pertaining to flesh"
+]],[["carnificial	"],["butchers or executioners"
+]],[["carpal"],["the wrist"
+]],[["castellar	"],["a castle"
+]],[["castral"],["of or belonging to the camp"
+]],[["catalactic	"],["exchange"
+]],[["catarrhine	"],["Old World Monkeys"
+]],[["catenarian	"],["chains"
+]],[["catoptric	"],["reflection or reflected light"
+]],[["caudal"],["the tail"
+]],[["causidical	"],["those who plead legal cases"
+]],[["cenatory	"],["supper"
+]],[["centrobaric	"],["the centre of gravity"
+]],[["cercopithecan	"],["long-tailed monkeys"
+]],[["cervine"],["of, pertaining to or resembling deer, elk or moose"
+]],[["cervisial	"],["of, like or pertaining or pertaining to beer"
+]],[["chelonian	"],["tortoises or turtles"
+]],[["chiral"],["the hand or handedness"
+]],[["cholic"],["bile"
+]],[["chorepiscopal	"],["an early local bishop"
+]],[["choreutic	"],["a chorus"
+]],[["chrematistic	"],["the pursuit of wealth or to business"
+]],[["chrestomathic	"],["useful knowledge"
+]],[["chthonian	"],["the earth or the underworld"
+]],[["cibarious	"],["food; useful for food"
+]],[["ciconine	"],["storks"
+]],[["cinerary	"],["ashes"
+]],[["clysmian	"],["or caused by flood"
+]],[["cnemial"],[" the tibia (shin-bone)"
+]],[["cnidarian	"],["invertebrates such as jellyfish and anemones"
+]],[["coeliac"],["the abdomen"
+]],[["colubrine	"],["like a snake; cunning; snakes"
+]],[["columbaceous	"],["doves or pigeons"
+]],[["columbine	"],["of or like a dove; dove-coloured"
+]],[["compital	"],["crossroads"
+]],[["co-	"],["purposeful action or desire"
+]],[["connubial	"],["marriage"
+]],[["coriaceous	"],["having a leathery appearance; consisting, leather"
+]],[["corvine"],["crow-like; crows or ravens"
+]],[["cosmotellurian	"],["both heaven and earth"
+]],[["costal"],["the ribs"
+]],[["cothurnal	"],["tragedy"
+]],[["coticular	"],["whetstones"
+]],[["creatic"],["flesh"
+]],[["credal"],["a creed"
+]],[["crenitic	"],["mineral springs"
+]],[["crepuscular	"],["twilight"
+]],[["cretaceous	"],["of or resembling chalk; of a whitish colour"
+]],[["crinal"],["of or related to the hair"
+]],[["crotaline	"],["rattlesnakes"
+]],[["crural"],["of or belonging to the leg"
+]],[["cryptaesthetic	"],["supranormal perception"
+]],[["cryptous	"],["crypts"
+]],[["cuculine	"],["cuckoos"
+]],[["cucurbitaceous	"],["gourds"
+]],[["cupulate	"],["a cup; cup-shaped"
+]],[["cutaneous	"],["of or related to the skin"
+]],[["cynegetic	"],["of or related to hunting"
+]],[["cyprinoid	"],["carp"
+]],[["cypseline	"],["swifts"
+]],[["decanal"],["a dean or deacon"
+]],[["decennoval	"],["the number nineteen"
+]],[["decretal	"],["a decree"
+]],[["delphine	"],["pertaining to the Dauphin of France"
+]],[["delphinine	"],["dolphins"
+]],[["demegoric	"],["demagogues or demagogic speech"
+]],[["demogenic	"],["membership by citizenship rather than kinship"
+]],[["demotic"],["the common people"
+]],[["denary"],["one of ten; tenfold;group of ten"
+]],[["deontic"],["of or relating to duty or obligation"
+]],[["deric"],["the skin"
+]],[["diaconal	"],["a deacon"
+]],[["diacoustic	"],["the refraction of sound"
+]],[["diadermic	"],["the puncturing of the skin"
+]],[["dianoetic	"],["capable thought"
+]],[["didascalic	"],["didactic; pertaining to education or teaching"
+]],[["didelphine	"],["opossums"
+]],[["didine"],["dodos"
+]],[["diluvial	"],["floods; especially mythical ones"
+]],[["dinic"],["vertigo or dizziness"
+]],[["discophoran	"],["jellyfishes"
+]],[["distaff"],["the female branch of a family or womens work"
+]],[["dolabrate	"],["axes or hatchets"
+]],[["domal"],["a house or dome"
+]],[["doxastic	"],["opinion"
+]],[["dromic"],["a racecourse"
+]],[["drupaceous	"],["drupes or stone-fruits"
+]],[["duodenary	"],["the number twelve"
+]],[["eburnean	"],["of or like ivory; ivory-coloured"
+]],[["edacious	"],["voracious; gluttonous; pertaining to eating"
+]],[["edaphic"],["the soil"
+]],[["edentate	"],["toothless; without teeth; pertaining to aardvarks and sloths"
+]],[["elaphine	"],["of, like or belonging to a red deer;  red deer"
+]],[["elapid"],["cobras"
+]],[["eleemosynary	"],["charity or giving alms; dependent on charity"
+]],[["elenctic	"],["argument; cross-examination or refuting"
+]],[["elephantine	"],["elephants"
+]],[["empaestic	"],["the art of embossing"
+]],[["emporeutic	"],["trade"
+]],[["empyreal	"],["heaven; sublime; skyward"
+]],[["emunctory	"],["conveying waste; pertaining to nose-blowing"
+]],[["enteral"],["of, pertaining to or within the intestine"
+]],[["entomical	"],["insects"
+]],[["eoan"],["dawn"
+]],[["epedaphic	"],["atmospheric conditions"
+]],[["epicedial	"],["dirges or elegies"
+]],[["epichoric	"],["belonging or pertaining to a rural area"
+]],[["epistolary	"],["letters"
+]],[["epithymetic	"],["desire"
+]],[["epulary"],["banquets"
+]],[["equine"],["horses"
+]],[["eristic"],["controversy or argument"
+]],[["erotetic	"],["engaging in or pertaining to rhetorical questioning"
+]],[["estival"],["summer"
+]],[["ethmoid"],["of or like a sieve"
+]],[["eupeptic	"],["good digestion; cheerful"
+]],[["eusuchian	"],["alligators and crocodiles"
+]],[["excrementitial	"],["excrement"
+]],[["falconine	"],["falcons or hawks"
+]],[["familic"],["pertaining to a family; domestic"
+]],[["favonian	"],["the west wind; mild and favourable"
+]],[["feline"],["cats"
+]],[["fenestral	"],["windows"
+]],[["ferial"],["holidays"
+]],[["fictile"],["capable of being moulded; pottery"
+]],[["fidicinal	"],["stringed musical instruments"
+]],[["figuline	"],["earthenware"
+]],[["fimetic"],["dung"
+]],[["fodient"],["digging"
+]],[["foraneous	"],["forums"
+]],[["forcipate	"],["forceps"
+]],[["formic"],["ants"
+]],[["formicine	"],["ants"
+]],[["fringillaceous	"],["finches"
+]],[["fringilline	"],["finches"
+]],[["frumentarious	"],["corn"
+]],[["fulgural	"],["lightning"
+]],[["fuliginous	"],["sooty; dusky; soot-coloured; of or pertaining to soot"
+]],[["fuliguline	"],["sea ducks"
+]],[["fullonical	"],["of, like or pertaining or belonging to a fuller"
+]],[["fulmineous	"],["thunder and lightning"
+]],[["funebral	"],["a funeral"
+]],[["fungous"],["of or like fungus; soft; spongy"
+]],[["funicular	"],["a string or cable"
+]],[["furuncular	"],["boils"
+]],[["gadoid"],["of, resembling or pertaining to the cod"
+]],[["galactic	"],["or obtained from milk"
+]],[["gallinaceous	"],["of or resembling pheasants and other domestic birds"
+]],[["geal"],["of, like  or pertaining to the earth"
+]],[["gelastic	"],["or provoking laughter"
+]],[["gemmeous	"],["gems; like a gem"
+]],[["genesic"],["procreation or the genitals"
+]],[["geocyclic	"],["the rotation and revolution of the Earth"
+]],[["georgic"],["agricultural or rustic affairs; rural; agrarian"
+]],[["geoselenic	"],["both the Earth and the moon"
+]],[["geostrophic	"],["deflection due to effects of Earths rotation"
+]],[["gerontogenous	"],["the Old World"
+]],[["gestatorial	"],["carrying"
+]],[["gestic"],["gestures"
+]],[["glirine"],["rodent-like; rodents"
+]],[["glottogonic	"],["the origins of language"
+]],[["glyptic"],["carving or gem-engraving"
+]],[["gnathal"],["the jaws"
+]],[["gnomic"],["signifying general truth; pertaining to aphorisms or proverbs"
+]],[["goetic"],["black magic"
+]],[["grallatory	"],["wading birds"
+]],[["gramineous	"],["grass; grassy"
+]],[["gravimetrical	"],["measuring by weight"
+]],[["gregal"],["a flock"
+]],[["gremial"],["intimate; pertaining to the lap or bosom"
+]],[["gromatic	"],["surveys or surveying"
+]],[["gruine"],["cranes or similar birds"
+]],[["habilatory	"],["clothes or dressing"
+]],[["haemal"],["blood"
+]],[["halcyonine	"],["kingfishers"
+]],[["halibiotic	"],["the entirety of life under the sea"
+]],[["halieutic	"],["fishing"
+]],[["halolimnic	"],["sea creatures who spend time in fresh water"
+]],[["haptic"],["the sense of touch"
+]],[["hebamic"],["the socratic method"
+]],[["hebetic"],["puberty"
+]],[["hederaceous	"],["ivy"
+]],[["hepatic"],["or acting upon the liver"
+]],[["hephaestic	"],["iron-working and blacksmiths"
+]],[["hermeneutic	"],["the interpretation of passages"
+]],[["hermetic	"],["sorcery or alchemy"
+]],[["herpetoid	"],["snakes"
+]],[["hesternal	"],["yesterday"
+]],[["hibernal	"],["winter"
+]],[["hiemal"],["winter"
+]],[["hippiatric	"],["the treatment of horses diseases"
+]],[["hippic"],["horses"
+]],[["hippoid , equine; "],["horses"
+]],[["hircine"],["goat-like; having a goatish smell; smelly goats"
+]],[["hirudine	"],["leeches"
+]],[["hirudinean	"],["leeches"
+]],[["hirundine	"],["swallows"
+]],[["histrionic	"],["the stage or actors"
+]],[["hodiernal	"],["the present day"
+]],[["homarine	"],["lobsters"
+]],[["homiletical	"],["homilies"
+]],[["horal"],["hours; hourly"
+]],[["horary"],["an hour; continuing for an hour; hourly"
+]],[["hordeaceous	"],["barley"
+]],[["hortensial	"],["gardens"
+]],[["hortulan	"],["gardens"
+]],[["humoral"],["body fluid"
+]],[["hyaloid"],["glass"
+]],[["hydric"],["an abundance of moisture"
+]],[["hyetal"],["rainy; rainfall"
+]],[["hygeian"],["health; healthy"
+]],[["hygric"],["water or moisture"
+]],[["hylobatine	"],["gibbons"
+]],[["hymeneal	"],["marriage"
+]],[["hypnagogic	"],["sleep-inducing; pertaining to drowsiness or sleep"
+]],[["hypnoetic	"],["unconscious logical thought"
+]],[["hypnopompic	"],["period between sleep and wakefulness"
+]],[["hypothecary	"],["mortgages"
+]],[["hystricine	"],["porcupines"
+]],[["ibidine"],["pertaining to the ibis"
+]],[["ichneutic	"],["a tracker or tracking"
+]],[["ichthyic	"],["of, resembling or pertaining to fish"
+]],[["icterical	"],["or suffering from jaundice"
+]],[["icterine	"],["orioles and related birds"
+]],[["ictic"],["of, pertaining to, or caused by, a blow or stroke; pertaining to metrical stress"
+]],[["iliac"],["the loins"
+]],[["ilicic"],["holly"
+]],[["inescatory	"],["baiting; adapted to bait"
+]],[["inguinal	"],["the groin"
+]],[["institorial	"],["an agent or factor"
+]],[["intercrural	"],["within or pertaining to the area between the legs"
+]],[["interstitial	"],["the space between things"
+]],[["ipecacuanhic	"],["of or relating to ipecac"
+]],[["iridaceous	"],["to iris plants"
+]],[["iridal"],["of or pertaining to the rainbow"
+]],[["iridic"],["the iris of the eye"
+]],[["ischiatic	"],["of or pertaining to the ischium or hip"
+]],[["islandic	"],["of or pertaining to an island"
+]],[["ixiodic"],["ticks"
+]],[["jecoral"],["the liver"
+]],[["jentacular	"],["breakfast"
+]],[["juglandaceous	"],["walnuts"
+]],[["juncaceous	"],["rushes"
+]],[["jural"],["the law"
+]],[["juratory	"],["an oath"
+]],[["kerygmatic	"],["preaching the Gospel"
+]],[["lacertilian	"],["lizards"
+]],[["lacuscular	"],["pools"
+]],[["lacustrine	"],["lakes"
+]],[["laic"],["lay people rather than clergy"
+]],[["lamiaceous	"],["minty; the mint plant"
+]],[["laminary	"],["thin plates or layer"
+]],[["lampyridine	"],[" glow-worms or fireflies"
+]],[["laniary"],["of teeth or claws designed for tearing (canine teeth)"
+]],[["lapidarian	"],["stones; inscribed on stones"
+]],[["lardaceous	"],["lard"
+]],[["larine"],["gulls"
+]],[["laroid"],["gulls"
+]],[["lavic"],["lava"
+]],[["legatine	"],["a legate"
+]],[["lemurine	"],["lemurs"
+]],[["leonine"],["lions"
+]],[["leonine"],["of or like a lion; rhyming last two or three syllables in a line"
+]],[["leporine	"],["the hare"
+]],[["lienal"],["the spleen"
+]],[["limacine	"],["slugs"
+]],[["limicoline	"],["living on a shore; wading birds"
+]],[["limnetic	"],["living in fresh water; pertaining to fresh water"
+]],[["linaceous	"],["flax"
+]],[["lingual"],["language, speech or the tongue"
+]],[["littoral	"],["the shore of a body of water"
+]],[["lobar"],["a lobe"
+]],[["loimic"],["plagues"
+]],[["loranthaceous	"],["the mistletoe"
+]],[["lucernal	"],["lamps"
+]],[["lumbricine	"],["earthworms"
+]],[["lunisolar	"],["pertaining jointly to the moon and sun"
+]],[["lupanarian	"],["a brothel"
+]],[["lupine"],["wolves"
+]],[["lupulic"],["hops"
+]],[["lutaceous	"],["or comprised of mud"
+]],[["lutrine"],["otters"
+]],[["macropodine	"],["kangaroos"
+]],[["magistral	"],["a master or teacher"
+]],[["malar"],["the cheek"
+]],[["malvaceous	"],["the mallow family of plants"
+]],[["manal"],["the hand"
+]],[["mandative	"],["commands or leadership"
+]],[["mantic"],["divination; prophetic; divinely inspired"
+]],[["marmoreal	"],["of or like marble"
+]],[["materteral	"],["of or resembling an aunt"
+]],[["matinal"],["the morning"
+]],[["matrical	"],["a womb or a matrix"
+]],[["matricular	"],["a register"
+]],[["matriherital	"],["inheritance along the female line"
+]],[["matripotestal	"],["the power of mothers"
+]],[["matutinal	"],["the morning; happening early in the day"
+]],[["maxillary	"],["a jaw"
+]],[["medianic	"],["spiritualists, mediums or prophets"
+]],[["megachiropteran	"],["fruit bats"
+]],[["meleagrine	"],["turkeys"
+]],[["mellaginous	"],["or resembling honey"
+]],[["membral"],["the limbs rather than the trunk"
+]],[["mensal"],["the dinner-table; monthly"
+]],[["mental"],["the chin"
+]],[["meretricious	"],["prostitution; superficially attractive but lacking value"
+]],[["metameric	"],["serial division or segmentation of body"
+]],[["metopic"],["the forehead"
+]],[["milvine"],["kites and similar birds"
+]],[["mimetic"],["imitative; mimicry"
+]],[["miothermic	"],["temperature conditions of the present day"
+]],[["mnesic"],["memory"
+]],[["molendinar	"],["a mill or miller"
+]],[["molinary	"],["mills or grinding"
+]],[["morassic	"],["a morass"
+]],[["morganatic	"],["a marriage between those of unequal rank"
+]],[["morphean	"],["dreams"
+]],[["morphotic	"],["formation or development"
+]],[["morsal"],["the cutting edge of a knife"
+]],[["mucopurulent	"],["of mucus and pus"
+]],[["mulciberian	"],["metalworking"
+]],[["murine"],["mice and rats"
+]],[["musal"],["poetry or the Muses"
+]],[["muscicapine	"],["flycatchers and related birds"
+]],[["muscid"],["house-flies"
+]],[["muscoid"],["mosses; moss-like"
+]],[["musteline	"],["weasels, martens and badgers"
+]],[["mycteric	"],["the nostrils"
+]],[["myelic"],["the spinal cord"
+]],[["myoxine"],["dormice"
+]],[["myrmecophagid	"],["anteaters"
+]],[["myrmicine	"],["ants"
+]],[["mystagogical	"],["religious ritual initiation"
+]],[["nacreous	"],["of or resembling mother-of-pearl"
+]],[["narial"],["the nostrils"
+]],[["natalitial	"],["a birthday"
+]],[["natricine	"],["water-snakes"
+]],[["neanic"],["the adolescent period; young"
+]],[["nectareal	"],["of or like nectar"
+]],[["nemaline	"],["of or like a thread"
+]],[["nemoral"],["of a wood or grove"
+]],[["neoblastic	"],["new growth"
+]],[["neophrastic	"],["neologisms"
+]],[["nephric"],["the kidneys"
+]],[["nepionic	"],["the embryonic period of development"
+]],[["nepotal"],["ones nephew"
+]],[["neurergic	"],["the function or action of the nerves"
+]],[["niccolic	"],["made from,nickel"
+]],[["nicotian	"],["tobacco"
+]],[["nidatory	"],["nests"
+]],[["nimonic"],["of alloys used in high-temperature work"
+]],[["nobiliary	"],["nobility"
+]],[["nosocomial	"],["a hospital"
+]],[["novenary	"],["the number nine"
+]],[["novercal	"],["a stepmother"
+]],[["noxal"],["wrongful injury by object or animal of another"
+]],[["nucal"],["nuts"
+]],[["nuchal"],["the nape of the neck"
+]],[["numinous	"],["a deity; suffused with religious awe"
+]],[["nummary"],["coins or money"
+]],[["nundinal	"],["a fair or market"
+]],[["nutricial	"],["nurses"
+]],[["nychthemeral	"],["a nychthemeron or 24-hour period"
+]],[["nymphean	"],["a nymph"
+]],[["obitual"],["obituaries"
+]],[["obsidional	"],["a siege"
+]],[["occipital	"],["the back of the head"
+]],[["octonary	"],["or consisting of eight things; grouped in eights"
+]],[["oecodomic	"],["architecture"
+]],[["oenopoetic	"],["wine-making"
+]],[["olamic"],["of or belonging to a vast period or eon"
+]],[["oleic"],["or derived from oil"
+]],[["oleraceous	"],["of the nature of a pot-herb; for kitchen use; edible"
+]],[["oligodynamic	"],["the effect of small quantities"
+]],[["olitory"],["kitchen vegetables"
+]],[["oneiric"],["dreams"
+]],[["onomastic	"],["a name or signature"
+]],[["ontal"],["reality or existence"
+]],[["onymatic	"],["names"
+]],[["ophic"],["serpents"
+]],[["ophidian	"],["of or like a snake"
+]],[["opisthosomal	"],["posteriors"
+]],[["optimate	"],["of the nobility or aristocracy"
+]],[["ordalian	"],["an ordeal"
+]],[["orectic"],["appetite or desires"
+]],[["ornithic	"],["birds"
+]],[["orobathymetric	"],["map showing submerged heights and sea depths"
+]],[["oscheal"],["the scrotum"
+]],[["oscinine	"],["song-birds"
+]],[["oscular"],["the mouth or to kissing"
+]],[["osteal"],[" [>], or comprised of bone"
+]],[["ostracean	"],["oysters"
+]],[["ostraceous	"],["oysters"
+]],[["otarine"],["seals"
+]],[["otic"],["the ear"
+]],[["ovibovine	"],["musk-oxen"
+]],[["ovine"],["sheep"
+]],[["pabulous	"],["nourishment"
+]],[["paginal"],["pages or pagination"
+]],[["palladian	"],["wisdom or learning"
+]],[["palmar"],["the palm"
+]],[["palpebral	"],["the eyelid"
+]],[["paludal"],["marshes; marshy; malarial"
+]],[["panary"],["bread; bread store"
+]],[["papaverous	"],["poppies"
+]],[["papilionaceous	"],["butterflies"
+]],[["papuliferous	"],["pimply; bearing or pertaining to pimples"
+]],[["parastatic	"],["protective mimicry of animals"
+]],[["pardine"],["leopards"
+]],[["parietal	"],["of a wall or walls, especially anatomical walls"
+]],[["parine"],["titmouses"
+]],[["parthenian	"],["virgins"
+]],[["pascual"],["growing on land used for grazing; pastures"
+]],[["passerine	"],["sparrows"
+]],[["patibulary	"],["the gallows"
+]],[["patrial"],["ones native land"
+]],[["pavonian	"],["peacocks"
+]],[["pavonine	"],["peacocks"
+]],[["pectinal	"],["of a comb; comb-like"
+]],[["pectineal	"],["of the pubic bone"
+]],[["pecuniary	"],["money; consisting of money"
+]],[["pedalian	"],["the foot or to metrical feet"
+]],[["pedary"],["walking or feet"
+]],[["pedicular	"],["lice"
+]],[["pedological	"],["soils"
+]],[["pelargic	"],["storks"
+]],[["pendular	"],["a pendulum"
+]],[["penial"],["the penis"
+]],[["perdicine	"],["partridges"
+]],[["peristeronic	"],["pigeons"
+]],[["petrean"],["or made of rock"
+]],[["phacochoerine	"],["warthogs"
+]],[["phallic"],["of, pertaining to or resembling a penis"
+]],[["phemic"],["speech"
+]],[["phenetic	"],["classification by phenotype"
+]],[["philomelian	"],["nightingales"
+]],[["philoprogenitive	"],["instinctive love for offspring"
+]],[["phocine"],["seals"
+]],[["phreatic	"],["underground water supplying or wells"
+]],[["phrenic"],["of or near the midriff"
+]],[["phthongal	"],["of, pertaining to, or consisting of a sound; vocalized"
+]],[["phugoid"],["the longitudinal stability of aircraft"
+]],[["picaresque	"],["of, like or pertaining or pertaining to rogues or roguish behaviour"
+]],[["picine"],["woodpeckers"
+]],[["piscatorial	"],["fishing or fishers"
+]],[["piscine"],["fish"
+]],[["planetesimal	"],["asteroids or similar tiny celestial bodies"
+]],[["plantar"],["the sole of the foot"
+]],[["plaustral	"],["a wagon"
+]],[["plebeian	"],["of the common people or vulgar classes"
+]],[["plenilunar	"],["the full moon"
+]],[["pliothermic	"],["periods of above-average temperatures"
+]],[["plumeopicean	"],["of tar and feathers"
+]],[["poaceous	"],["of, like or pertaining or pertaining to grass"
+]],[["podalic"],["feet"
+]],[["poliorcectic	"],["siegecraft or besiegement"
+]],[["pomaceous	"],["or consisting of apples"
+]],[["popliteal	"],["the back of the knee"
+]],[["poral"],["pores"
+]],[["porcine"],["pigs; swinish"
+]],[["potamic"],["rivers"
+]],[["praedial	"],["or connected with the land or farming"
+]],[["prandial	"],["dinner"
+]],[["prebendal	"],["stipends issued by a church"
+]],[["prenarial	"],["or in front of the nostrils"
+]],[["preputial	"],["the foreskin"
+]],[["presidial	"],["a garrison"
+]],[["Priapean	"],["male reproductive power; phallic"
+]],[["pridian"],["yesterday"
+]],[["primitial	"],["first fruits; primeval"
+]],[["primogenous	"],["the earliest or first developmental stage"
+]],[["procephalic	"],["the front of the head"
+]],[["proctal"],["the anus or rectum"
+]],[["procyonine	"],["raccoons"
+]],[["proethnic	"],["primitive races"
+]],[["prosodic	"],["versification"
+]],[["prosopic	"],["the face"
+]],[["psephitic	"],["pebbles"
+]],[["psittacine	"],["macaws, parakeets or parrots"
+]],[["psittacine	"],["of or like parrots"
+]],[["pteric"],["the wing or the shoulder"
+]],[["pteropine	"],["flying foxes"
+]],[["puerperal	"],["childbirth"
+]],[["pulicine	"],["fleas"
+]],[["pullastrine	"],["pigeons"
+]],[["pulmonic	"],["the lungs"
+]],[["pygal"],["belonging to the rump end; pertaining to the rump"
+]],[["pyretic"],["of, pertaining to or for the cure of fevers"
+]],[["pyrrhic"],["the dance or to the foot"
+]],[["pyrrhuline	"],["bullfinches"
+]],[["quadragesimal	"],["Lent; lasting forty days"
+]],[["quercine	"],["oak trees"
+]],[["rabic"],["rabies"
+]],[["rachidian	"],["of or concerning the spine"
+]],[["rameal"],["branches"
+]],[["rangiferine	"],["or like reindeer"
+]],[["ranine"],["or like frogs"
+]],[["ranunculaceous	"],["buttercups"
+]],[["raptorial	"],["predacious; a bird of prey"
+]],[["ratite"],["flightless birds"
+]],[["reginal"],["a queen"
+]],[["regnal"],["of a reign"
+]],[["renal"],["the kidneys"
+]],[["reptilian	"],["reptiles"
+]],[["retiary"],["of nets; using nets as a weapon; catching insects in webs"
+]],[["reticular	"],["nets; intricate"
+]],[["rhematic	"],["of words or verbs; forming a word or words"
+]],[["rhinal"],["the nose"
+]],[["rhinocerotic	"],["the rhinoceros"
+]],[["rhizic"],["of the root of an equation"
+]],[["rhonchial	"],["snoring"
+]],[["rictal"],["of the gape; of the corner of the mouth"
+]],[["riparian	"],["of or inhabiting a riverbank; a riverside inhabitant"
+]],[["risible"],["laughable"
+]],[["risorial	"],["or causing laughter"
+]],[["roseaceous	"],["of the rose family; roselike"
+]],[["rupicaprine	"],["chamoise"
+]],[["sacerdotal	"],["priestly; pertaining to priestly interests"
+]],[["sanguineous	"],["bloody;  blood; blood-red"
+]],[["saporine	"],["the sense of taste"
+]],[["sarcous"],["of flesh or muscle"
+]],[["sartorial	"],["a tailor or tailored clothes"
+]],[["scabious	"],["scabies or scabs"
+]],[["scacchic	"],["chess"
+]],[["scarabaean	"],["scarabs"
+]],[["schiztic	"],["or marked by splitting"
+]],[["schoenabatic	"],["rope walking"
+]],[["sciatheric	"],["measurement of time by shadows"
+]],[["sciatic"],["the hip"
+]],[["scincoid	"],["of or resembling a skink"
+]],[["scioptic	"],["formation of images in darkrooms"
+]],[["sciurine	"],["squirrels"
+]],[["sciuroid	"],["squirrels or chipmunks"
+]],[["scolopacine	"],["snipes"
+]],[["scorbutic	"],["of or suffering from scurvy"
+]],[["scriptory	"],["by, in or pertaining to writing"
+]],[["scutal"],["shields"
+]],[["scytodepsic	"],["tanning leather"
+]],[["sebaceous	"],["of or like tallow"
+]],[["selachian	"],["sharks or rays"
+]],[["selenic"],["the moon"
+]],[["semic"],["a sign or signs"
+]],[["septentrional	"],["northern; the north"
+]],[["septimal	"],["or based on the number seven"
+]],[["seral"],["the development of ecological communities"
+]],[["serous"],["serum; watery"
+]],[["serpentine	"],["serpents or snakes"
+]],[["shrieval	"],["a sheriff"
+]],[["sialic"],["saliva"
+]],[["sidereal"],["the stars"
+]],[["sigillary	"],["a seal"
+]],[["simian"],["apes"
+]],[["sinal"],["the sinuses"
+]],[["siphonic	"],["a siphon"
+]],[["skelic"],["the skeleton"
+]],[["soliterraneous	"],["the joint effect of the sun and earth"
+]],[["somnial"],["dreams"
+]],[["sophianic	"],["wisdom"
+]],[["soricine	"],["shrews"
+]],[["soricine	"],["shrewlike; shrews"
+]],[["sororal"],["sisters"
+]],[["soterial	"],["salvation"
+]],[["spatiotemporal	"],["time and space"
+]],[["speluncar	"],["caves"
+]],[["spermatic	"],["sperm"
+]],[["sphecoid	"],["wasp-like"
+]],[["sphingal	"],["sphinxes"
+]],[["sphragistic	"],["seals and signets"
+]],[["sphygmic	"],["the pulse or heartbeat"
+]],[["spintrian	"],["orgies or male sexual deviance"
+]],[["splenic"],["the spleen"
+]],[["squaloid	"],["sharks"
+]],[["stadial"],["a stage"
+]],[["statuary	"],["of, pertaining to or suitable for sculpture"
+]],[["stercoraceous	"],["feces"
+]],[["steric"],["the organization of atoms in a molecule"
+]],[["sterquilinian	"],["a dunghill"
+]],[["stibial"],["antimony"
+]],[["stochastic	"],["a sequence of random events"
+]],[["stradometrical	"],["the measurement of streets and roads"
+]],[["stratonic	"],["of an army or armies"
+]],[["strigine	"],["owl-like; owls"
+]],[["struthious	"],["ostriches"
+]],[["stylogalmaic	"],["figures serving as columns or pillars"
+]],[["suberic	"],["of or pertaining to cork"
+]],[["suberous	"],["of, like or having the appearance of cork; pertaining to cork"
+]],[["suburbicarian	"],["suburbs"
+]],[["succinic	"],["of, pertaining to or derived from amber"
+]],[["suidian"],["pigs"
+]],[["suilline	"],["hogs"
+]],[["suilline	"],["like a pig; pigs"
+]],[["sulcal"],["of a sulcus; grooved; furrowed"
+]],[["sulphorous	"],["hellfire; infernal; blasphemous"
+]],[["sumptuary	"],["expense or extravagance"
+]],[["superciliary	"],["of, on or near the eyebrow"
+]],[["sural"],["the calf of the leg"
+]],[["surficial	"],["the surface of the earth"
+]],[["surnominal	"],["surnames"
+]],[["sutorian	"],["cobbling or sewing"
+]],[["sybotic"],["a swineherd"
+]],[["sylvestral	"],["trees"
+]],[["synodical	"],["conjunction"
+]],[["syringadenous	"],["sweat glands"
+]],[["syrtic"],["quicksand"
+]],[["tabernacular	"],["a tabernacle"
+]],[["tactual"],["or derived from the sense of touch"
+]],[["talaric"],["or reaching the ankles"
+]],[["taurean"],["a bull"
+]],[["taurine"],["bulls"
+]],[["taxaceous	"],["yew trees"
+]],[["technolithic	"],["stone tools"
+]],[["tectonic	"],["building; structural"
+]],[["tegmental	"],["coverings or outer shells"
+]],[["tegular"],["of, like or overlapping like tiles or slates"
+]],[["telestic	"],["the mysteries"
+]],[["tellural	"],["the earth"
+]],[["telodynamic	"],["transmission of power to a distance"
+]],[["tergal"],["the back"
+]],[["terpsichorean	"],["dancing"
+]],[["terraneous	"],["the earth"
+]],[["terrene"],["of the earth; earthly; worldly; mundane"
+]],[["tesserarian	"],["dice games"
+]],[["testaceous	"],["of or having a hard shell; brick-red"
+]],[["testudinal	"],["tortoises or tortoise-shell"
+]],[["textorial	"],["weaving"
+]],[["textrine	"],["weaving"
+]],[["thelematic	"],["will or volition; voluntary"
+]],[["theriacal	"],["antidotes"
+]],[["thermic"],["heat"
+]],[["thermonous	"],["stimulation by heat"
+]],[["theroid"],["a beast or wild animal"
+]],[["thesaurarial	"],["of or pertaining to the office of a treasurer"
+]],[["thesial"],["a thesis"
+]],[["thionic"],["or containing sulphur"
+]],[["threptic	"],["the rearing of young"
+]],[["thronal"],["a throne"
+]],[["tigrine"],["tigers"
+]],[["tinctorial	"],["dyeing; giving colour"
+]],[["tolypeutine	"],["armadillos"
+]],[["tonetic"],["tonal pronunciation or languages"
+]],[["tonsorial	"],["a barber or a barber?s work"
+]],[["toponomastic	"],["place names"
+]],[["torrentine	"],["a torrent; having the character of a torrent"
+]],[["toxophilite	"],["lover of archery; an archer; archery"
+]],[["tribunitial	"],["a tribune"
+]],[["tributorian	"],["tribute or payment"
+]],[["tringoid	"],["sandpipers"
+]],[["trochilic	"],["rotatory motion"
+]],[["trochilidine	"],["hummingbirds"
+]],[["trochiline	"],["hummingbirds"
+]],[["troglodytine	"],["wrens"
+]],[["truttaceous	"],["trout"
+]],[["turdine"],["thrushes"
+]],[["turdine"],["thrushes"
+]],[["turrical	"],["a tower or turret; like a turret"
+]],[["tussicular	"],["coughs"
+]],[["typographia	"],["matter pertaining to printing or printers"
+]],[["tyroid"],["resembling cheese; cheesy"
+]],[["uletic"],["the gums"
+]],[["ulmaceous	"],["of or like elms"
+]],[["umbilical	"],["the navel; related on the mothers side"
+]],[["uncial"],["an inch or an ounc"
+]],[["ungual"],["of a claw, hoof, or talon; clawed"
+]],[["unguentary	"],["unguents; one who makes or sells unguents"
+]],[["uranic"],["of the palate"
+]],[["uretic"],["urine"
+]],[["ursine"],["bears"
+]],[["urticaceous	"],["nettles"
+]],[["uxorial"],["a wife"
+]],[["vaccine"],["cows; preparation conferring immunity to disease"
+]],[["vadose"],["underground water above the water table"
+]],[["valetudinarian	"],["ill-health; anxious about health"
+]],[["vapulatory	"],["flogging"
+]],[["varietal	"],["a variety"
+]],[["vascular	"],["fluid-carrying vessels"
+]],[["vectigal	"],["the paying of tribute or rent"
+]],[["velamentous	"],["or like a membrane or sail"
+]],[["venatic"],["hunting"
+]],[["venous"],["veins"
+]],[["ventral"],["the underside or the belly"
+]],[["vermicular	"],["worms"
+]],[["vernal"],["spring"
+]],[["versicular	"],["of or in verse"
+]],[["vertiginous	"],["vertigo; dizzy; giddy"
+]],[["vesical"],["the bladder"
+]],[["vespal"],["wasps"
+]],[["vespertinal	"],["the evening"
+]],[["vespine"],["hornets or wasps"
+]],[["vestiary	"],["robing-room; cloakroom; clothes"
+]],[["vexillary	"],["standard-bearer; pertaining to regimental colours or flags"
+]],[["viatical	"],["roads or travel"
+]],[["vibronic	"],["of or caused by electronic vibration"
+]],[["vicarial	"],["a vicar or delegate"
+]],[["villar"],["a manor or village"
+]],[["villatic	"],["rural; a villa"
+]],[["vinal"],["of or due to wine"
+]],[["vindemial	"],["the vintage"
+]],[["vineatic	"],["vines"
+]],[["vinousl"],["ike wine; pertaining to wine; wine-coloured"
+]],[["viperine	"],["vipers"
+]],[["viperous	"],["of, like, or pertaining to vipers; treacherous; venomous"
+]],[["visceral	"],["of the organs of the body"
+]],[["visile"],["sight; learning easily by sight"
+]],[["visive"],["sight; visual; able to see or be seen"
+]],[["vitular"],["a calf or to calving"
+]],[["vituline	"],["calves or veal"
+]],[["viverrine	"],["civets and mongoose"
+]],[["viverrine	"],["the civet"
+]],[["vocabularian	"],["vocabulary"
+]],[["vocicultural	"],["voice training"
+]],[["volar"],["the palm or the sole; flight"
+]],[["volitive	"],["the will"
+]],[["volucrine	"],["birds; bird-like"
+]],[["voluminal	"],["volume or cubic capacity"
+]],[["voraginous	"],["a whirlpool; voracious"
+]],[["vortical	"],["a vortex; whirling"
+]],[["vulpecular	"],["a young fox"
+]],[["vulpine"],["foxes; cunning"
+]],[["vulturine	"],["rapacious; a vulture"
+]],[["vulvar"],["or resembling the vulva"
+]],[["xilinous	"],["cotton"
+]],[["xylary"],["xylem"
+]],[["yogic"],["of or pertaining to yoga"
+]],[["zebrine"],["zebras"
+]],[["zibeline	"],["the sable"
+]],[["zincic"],["of, pertaining to or containing zinc"
+]],[["zirconic	"],["of or pertaining to zirconium"
+]],[["zoic"],["animals; containing evidence of life"
+]],[["zonal"],["of or like a zone; arranged in zones"
+]],[["zonarious	"],["of or pertaining to a girdle or purse"
+]],[["zonary"],["of or like a zone; arranged in zones"
+]],[["zoochorous	"],["of seeds or spores spread by animals"
+]],[["zoonic"],["or derived from animals"
+]],[["zygal"],["formed like the letter H; a yoke or union"
+]],[["zymic"],["fermentation"
+]],[["zymotic"],["fermentation"
+
+//Manias
+
+]],[["Ablutomania"],["washing or cleaning oneself => [abluto-] (Latin) meaning 'washing' or 'cleaning' (see ablutophobia, opposite)"
+]],[["Aboulomania"],["indecisiveness => [aboulo-] (Greek) meaning 'irresolution' or 'indecision'"
+]],[["Acronymania"],["acronyms => [acro-] (Greek) meaning 'highest', 'top', 'tip end' or 'outermost' | [-onym, -nym] (Greek) meaning 'name' or 'word'"
+]],[["Agromania"],["being in open spaces => [agro-] (Greek) meaning 'land', 'soil', 'field', 'earth' or 'wild'"
+]],[["Aidoiomania"],["sexual intercourse"
+]],[["Ailuromania"],["cats => [ailuro-] (Greek) meaning 'cat'"
+]],[["Alcoholomania"],["alcohol => [alcohol-] (Arabic > Latin) meaning 'alcohol'"
+]],[["Andromania"],["human sexual behaviour/desire towards males (in females only) [obsolete - replaced by synonyms: hypersexuality, nymphomania, cytheromania or hysteromania] => [andro-] (Greek) meaning 'man', 'men', 'male' or 'masculine'"
+]],[["Androphonomania"],["homicidal insanity => [andro-] (Greek) meaning 'man', 'male' | [phono-] (Greek) meaning 'slaughter', 'kill', 'murder', 'homicide'"
+]],[["Anglomania"],["England and the English (a passion or obsession with the English i.e. anglophile) (see anglophobia, opposite)"
+]],[["Anthomania"],["flowers => [antho-] (Greek) meaning 'flower' (see anthophobia, opposite)"
+]],[["Aphrodisiomania"],["sexual interest => [-aphrodisia] (Greek) meaning 'Greek goddess of love'"
+]],[["Apimania"],["bees (a passion or obsession with bees) => [api-] (Latin) meaning 'bee' (see ariphobia i.e.  bees, opposite)"
+]],[["Arithomania"],["numbers & counting (a passion or obsession with counting) [synonym - arithmomania] => [arith-] (Greek) meaning 'number'"
+]],[["Arithmomania"],["numbers & counting [synonym - arithomania] => [arithmo-] (Greek) meaning 'number'"
+]],[["balletomania"],["ballet"
+]],[["Beatlemania"],["the Beatles (an obsession with the Beatles)"
+]],[["bibliokleptomania"],["stealing books => [biblio-] (Greek) meaning 'books' | [klepto-] (Greek) meaning 'stealing' or 'stealing'"
+]],[["bibliomania"],["books & reading => [biblio-] (Greek) meaning 'books'"
+]],[["Bracteomania"],["excessive production of bracts, a type of leaf (in plants only) => [bracte-] (Latin) meaning thin 'plate'"
+]],[["bruxomania"],["grinding of the teeth => [bruxo-] (Greek) meaning 'grinding or gnashing the teeth'"
+]],[["brycomania"],["severe bruxomania"
+]],[["cacodaemomania"],["one's own inhabitation by evil spirits (delusional conviction) [synonym - cacodemomania] => [caco-] (Greek) meaning 'bad', 'evil' or 'unpleasant') | [daemon-] (Greek) 'devil','demon', 'evil spirit', 'an intermediary spirit between gods and men which could be good or evil'"
+]],[["cacodemomania"],["one's own inhabitation by evil spirits (delusional conviction) [synonym - cacodaemomania] => [caco-] (Greek) meaning 'bad', 'evil' or 'unpleasant') | [demon-] (Greek) 'devil','demon', 'evil spirit', 'an intermediary spirit between gods and men which could be good or evil'"
+]],[["cacospectomania"],["staring at repulsive things => [caco-] (Greek: 'bad', 'evil' or 'unpleasant') | [spect-] (Latin) meaning 'see', 'look', 'behold' or 'examine')"
+]],[["capnomanioa"],[" smoking tobacco products => [capno-] (Greek) meaning 'smoke', 'sooty' or 'carbon dioxide'"
+]],[["callomania"],["one's own beauty (delusional conviction) => [callo-] (Greek) meaning 'beautiful'"
+]],[["catapedamania"],["jumping from high places => [cata-] (Greek) meaning 'downward' or 'lower' | [ped-] (Greek) 'ground', 'earth'"
+]],[["cheromania"],["gaiety"
+]],[["chinamania"],["china"
+]],[["chiomomania"],["snow => [chion-] (Greek) meaning 'snow' or 'like snow'"
+]],[["chiromania"],["masturbation (in males only) => [chiro-] (Greek) meaning 'hand' or 'pertaining to the hand or hands'"
+]],[["choreomania"],["dancing [synonym - choromania] => [choreo-] (Greek) meaning 'dance'"
+]],[["choromania"],["dancing [synonym - choreomania] => [choro-] (Greek) meaning 'dance'"
+]],[["clinomania"],["excessive desire to stay in bed"
+]],[["cremnomania"],["climbing cliffs => [cremno-] (Latin) meaning 'precipice', 'cliff' or 'crag')."
+]],[["cresomania"],["great wealth"
+]],[["chloralomania"],["chloral (alcohol and chlorine)"
+]],[["copromania"],["feces => [copro-] (Greek) meaning 'feces', 'excrement', 'filth'"
+]],[["cynomania"],["dogs => [cyno-] (Greek) meaning 'dog'"
+]],[["cytheromania"],["human sexual behaviour/desire towards males (in females only) [synonyms - nymphomania & hysteromania] => [cyther-] (Greek) referring to 'Kytheria' - another name for Venus (Roman goddess of love) or Aphrodite (Greek goddess of love)"
+]],[["dacnomania"],["the obsession with killing."
+]],[["decidomania"],["decisions {see decidophobia}."
+]],[["demonomania"],["one's own demonic possession (delusional conviction)."
+]],[["dendromania"],["trees and forest => [dendro-] (Greek) meaning 'tree')."
+]],[["decalcomania"],["decal (decorative technique of transferring specially prepared paper prints to ceramic surfaces i.e. glass, porcelain, etc.)."
+]],[["desanimania"],["mindless insanity (condition) => [anim-] (Latin) 'living', 'soul' or 'mind'"
+]],[["dermatillomania"],["picking at the skin."
+]],[["dinomania"],["dancing [alternate definition: - dinosaur obsession]."
+]],[["dinomania"],["dinosaurs [alternate definition: - dancing obsession]."
+]],[["dipsomania"],["alcohol => [dipso-] (Greek) meaning 'thirst'."
+]],[["discomania"],["disco music"
+]],[["doramania"],["furs ownership"
+]],[["doromania"],["giving gifts => [dat-, dow-, don-, dit-] (Greek > Latin) meaning 'to give', 'to grant' or 'to offer'."
+]],[["drapetomania"],["running away from home [pseudoscience]"
+]],[["dromomania"],["travel"
+]],[["dysmorphomania"],["one's physical deformity or abnormality (delusional conviction)"
+]],[["ecdemomania"],["wandering => [ecdemo-] (Greek) meaning 'away from home')."
+]],[["ecomania"],["family dominance but authority submission => [eco-] (Greek) meaning 'home, household affairs')."
+]],[["edeomania"],["genitals => [edeo-] (Greek) meaning 'genitals' literally, 'those things that are regarded with reverence or awe'."
+]],[["egomania"],["oneself and self-worship => [ego-] (Latin) meaning 'I - first person/singular pronoun')."
+]],[["eleutheromania"],["freedom => [eleuthero-] (Greek) meaning 'freedom'."
+]],[["emetomania"],["vomiting => [emeto-] (Greek) meaning 'regurgitate'."
+]],[["empleomania"],["holding public office."
+]],[["enomania"],["wine [synonym oenomania] => [oeno-, eno-] (Greek) meaning 'wine'."
+]],[["enosimania"],["one's own sinful behaviour (delusional conviction)"
+]],[["entheomania"],["one's divine inspiration (delusional conviction) => [theo-] (Greek) meaning 'deity' or 'divine')."
+]],[["entomomania"],["insects => [entomon] (Greek) meaning 'insect'"
+]],[["epomania"],["writing epics"
+]],[["eremiomania"],["stillness and solitude => [eraemia] (Greek) meaning 'solitude'"
+]],[["ergasiomania"],["work [synonym - ergomania] => [ergasio- or ergo-] (Greek) meaning 'work'."
+]],[["ergomania"],["work [synonym - ergasiomania] => [ergasio- or ergo-] (Greek) meaning 'work'."
+]],[["erotomania"],["1) sexual desire 2) sexual attraction from strangers (delusional conviction) => [eroto-] (Greek) meaning 'sexual passion' or 'desire'."
+]],[["erythomania"],["blushing"
+]],[["esthesiomania"],["insanity with sensory hallucinations [condition] => [esthesio-] (Greek) meaning 'sensation' or 'perception'."
+]],[["etheromania"],["ether => [ethero-] (Greek > Latin) meaning 'upper air' or 'sky'."
+]],[["ethnomania"],["one's own people => [ethno-] (Greek) meaning 'race', 'nation', 'family' or 'community'."
+]],[["eulogomania"],["eulogies"
+]],[["flagellomania"],["flogging => [flagello-] (Latin) meaning 'whip'."
+]],[["florimania"],["flowers => [flori-] (Latin) meaning 'flower'."
+]],[["francomania"],["France and the French [see gallomania]"
+]],[["fumomania"],["smoking => [fum-] (Latin) 'smoke', 'vapor'"
+]],[["gallomania"],["France and the French [see francomania] => [gallo-] (Latin) meaning 'pertaining to Gaul'."
+]],[["gamomania"],["issuing odd and/or extravagant marriage proposals => [gamo-] (Greek) meaning 'marriage' or 'wedding')."
+]],[["Graecomania"],["Greece and the Greeks [see Hellenomania]"
+]],[["graphomania"],["writing => [grapho-] (Greek) meaning 'to write'."
+]],[["gynaecomania"],["sexual interest for women => [gynaeco-] (Greek) meaning 'woman'."
+]],[["habromania"],["gaiety and euphoria"
+]],[["hagiomania"],["sainthood => [hagio-] (Greek) meaning 'sacred' or 'holy'"
+]],[["hankomania"],["Hank WIlliams Jr's appearance and emphatic comments on the television show Fox and Friends on October 3, 2011 [see Hank Williams Jr Fox and Friends Appearance]"
+]],[["Hellenomania"],["Greece and the Greeks [see Graecomania]"
+]],[["hexametromania"],["hexameter writing"
+]],[["hieromania"],["religious visions => [hiero-] (Greek) meaning 'sacred' or 'holy'."
+]],[["hippomania"],["1) horses (A passion or obsession with horses[1] as well as a madness in horses[2]) => [hippo-] (Greek) meaning 'horse' [see hippophobia (opposite)] 2) hippopotamuses (passion or obsession with hippopotamuses [3] => [hippo-] (Greek) meaning 'horse' & [ potamos ] (Greek) meaning 'river'."
+]],[["hippopotomonstrosesquippedaliomania"],["long words (excessive and persistent use of long words) [see hippopotomonstrosesquippedaliomania (opposite)]"
+]],[["hydromania"],["water => [hydro-] (Greek) meaning 'water'."
+]],[["hylomania"],["1) materialism => [hylo-] (Greek) meaning 'materialism' or 'wood' 2) wood => [hylo-] (Greek) meaning 'materialism' or 'wood'."
+]],[["hypermania"],["(severe mania) mental state with high intensity disorientation and often violent behavior - symptomatic of bipolar disorder => [hyper-] (Greek) meaning 'abnormal excess'."
+]],[["hypomania"],["(mild mania) mental state with persistent and pervasive elevated or irritable mood - symptomatic of manic-depression => [hypo-] (Greek) meaning 'deficient'."
+]],[["hysteromania"],["human sexual behaviour/desire towards males (females only) [synonyms - nymphomania, cytheromania] => [hystero-] (Greek) meaning 'the womb' or 'uterus'."
+]],[["iconomania"],["icons or portraits"
+]],[["idolomania"],["idols"
+]],[["infomania"],["fact accumulation"
+]],[["islomania"],["islands"
+]],[["Italomania"],["Italy or Italians"
+]],[["imgurania"],[" imgur"
+]],[["kleptomania"],["stealing [synonym klopemania]"
+]],[["klopemania"],["stealing [synonym kleptomania]"
+]],[["Legomania"],["Stealing thousands of dollars worth of Legos, (an obsession with Legos)."
+]],[["logomania"],["Wordy and talkative i.e. loquacity"
+]],[["lypemania"],["mournfulness"
+]],[["Lisztomania"],["Franz Liszt (an obsession with Franz Liszt)"
+]],[["macromania"],["objects larger than natural size"
+]],[["mania"],["severely elevated mood"
+]],[["Maniamania"],["Manias"
+]],[["megalomania"],["wealth and power"
+]],[["monomania"],["a single object, type of object, or concept."
+]],[["melomania"],["music"
+]],[["methomania"],["alcohol"
+]],[["metromania"],["writing verse"
+]],[["micromania"],["self-deprecation"
+]],[["misomania"],["hatred of everything, obsession of hating some subject or group"
+]],[["monomania"],["single thought or idea"
+]],[["morphinomania"],["morphine"
+]],[["morsusmania"],["biting =>[morsus-] (Latin) meaning bite, eat or devour"
+]],[["musomania"],["music"
+]],[["mythomania"],["lying"
+]],[["narcomania"],["narcotics"
+]],[["necromania"],["sexual with dead bodies [synonym - necrophilia]"
+]],[["nymphomania"],["an obsolete term for female hypersexuality"
+]],[["nosomania"],["one's own suffering of disease"
+]],[["oenomania"],["wine"
+]],[["oligomania"],["a couple of thoughts, ideas or subjects"
+]],[["onomatomania"],["word repetition"
+]],[["oniomania"],["desire to shop"
+]],[["onomamania"],["names"
+]],[["onychotillomania"],["picking at the fingernails"
+]],[["opiomania"],["opium"
+]],[["opsomania"],["one kind of food"
+]],[["orchidomania"],["orchids"
+]],[["parousiamania"],["The second coming of Christ"
+]],[["paramania"],["complaints"
+]],[["pathomania"],["moral insanity"
+]],[["phagomania"],["excessive desire for food or eating"
+]],[["phaneromania"],["biting ones nails"
+]],[["pharmacomania"],["trying drugs"
+]],[["phonomania"],["murdering people"
+]],[["photomania"],["light"
+]],[["phyllomania"],["excessive or abnormal leaf production (in plants only) => phyllo- (Greek), meaning 'leaf or sheet'"
+]],[["phytomania"],["collecting plants => phyto- (Greek), meaning 'plant'"
+]],[["planomania"],["wander free from social restraints or obligations => plano- (Greek) meaning 'passively drifting, wandering, or roaming'"
+]],[["plutomania"],["money or wealth => ploutos- (Greek), meaning 'wealth'"
+]],[["polemomania"],["war => polemo- (Greek), meaning 'battle'"
+]],[["politicomania"],["politics"
+]],[["polkamania"],["polka dancing"
+]],[["polymania"],["mania affecting several different mental faculties"
+]],[["poriomania"],["wandering or journeying away from home => poreia (Greek) meaning 'journey'"
+]],[["pornomania"],["pornography"
+]],[["potichomania"],["imitating Oriental porcelain"
+]],[["potomania"],["caused by drinking alcohol"
+]],[["Pottermania"],["Harry Potter"
+]],[["pseudomania"],["1) lying or falsity; 2) Feigned insanity; 3) Falsely alleging responsibility for a crime."
+]],[["pteridomania"],["ferns"
+]],[["pyromania"],["fire or starting fires"
+]],[["rhinotillexomania"],["nose picking => rhino- (Greek) meaning 'nose'; tillexis- (Greek) meaning 'to pluck, tear, pull or pick at'"
+]],[["rinkomania"],["skating"
+]],[["satyromania"],["sexual desire (in males only) => satyrisis (Late Latin); saturisis (Greek), Excessive, often uncontrollable sexual desire in and behavior by a man => satyr (Greek > Latin) meaning a 'woodland deity, part man and part goat; riotous merriment and lechery'"
+]],[["scribbleomania"],["scribbling"
+]],[["sebastomania"],["religious insanity"
+]],[["sitiomania"],["appetite => sitio- (Greek) meaning 'food; eating; appetite'"
+]],[["sophomania"],["belief in one's own incredible intelligence"
+]],[["squandermania"],["spending money wastefully"
+]],[["stampomania"],["stamp-collecting"
+]],[["syphilomania"],["belief in one's own syphilis affliction"
+]],[["technomania"],["technology"
+]],[["Teutomania"],["Teutonic or German things"
+]],[["thanatomania"],["belief in one's own infection by 'death magic' and the resulting illness"
+]],[["theatromania"],["performing plays"
+]],[["theomania"],["one's own divinity or one's divine mission."
+]],[["timbromania"],["stamp collecting"
+]],[["trichotillomania"],["hair removal"
+]],[["timbromania"],["stamp collecting"
+]],[["tomomania"],["performing surgery"
+]],[["toxicomania"],["poisons"
+]],[["trichotillomania"],["removing one's own hair"
+]],[["titillomania"],["scratching"
+]],[["tulipomania"],["tulips"
+]],[["typhomania"],["typhus fever delirium"
+]],[["typomania"],["printing one's works"
+]],[["uranomania"],["divinity"
+]],[["verbomania"],["words"
+]],[["xenomania"],["foreign things"
+]],[["zoomania"],["animals "
+
+//Phobias
+
+]],[["Ablutophobia"],["washing or bathing."
+]],[["Acarophobia"],["itching or of the insects that cause itching."
+]],[["Acerophobia"],["sourness."
+]],[["Achluophobia"],["darkness."
+]],[["Acousticophobia"],["noise."
+]],[["Acrophobia"],["heights."
+]],[["Aerophobia"],["drafts, air swallowing, or airbourne noxious substances."
+]],[["Aeroacrophobia"],["open high places."
+]],[["Aeronausiphobia"],["vomiting secondary to airsickness."
+]],[["Agateophobia"],["insanity."
+]],[["Agliophobia"],["pain."
+]],[["Agoraphobia"],["open spaces or of being in crowded, public places like markets.  leaving a safe place."
+]],[["Agraphobia"],["sexual abuse."
+]],[["Agrizoophobia"],["wild animals."
+]],[["Agyrophobia"],["streets or crossing the street."
+]],[["Aichmophobia"],["needles or pointed objects."
+]],[["Ailurophobia"],["cats."
+]],[["Albuminurophobia"],["kidney disease."
+]],[["Alektorophobia"],["chickens."
+]],[["Algophobia"],["pain."
+]],[["Alliumphobia"],["garlic."
+]],[["Allodoxaphobia"],["opinions."
+]],[["Altophobia"],["heights."
+]],[["Amathophobia"],["dust."
+]],[["Amaxophobia"],["riding in a car."
+]],[["Ambulophobia"],["walking."
+]],[["Amnesiphobia"],["amnesia."
+]],[["Amychophobia"],["scratches or being scratched."
+]],[["Anablephobia"],["looking up."
+]],[["Ancraophobia"],["wind. (Anemophobia)"
+]],[["Androphobia"],["men."
+]],[["Anemophobia"],["air drafts or wind.(Ancraophobia) "
+]],[["Anginophobia"],["angina, choking or narrowness."
+]],[["Anglophobia"],["England or English culture, etc."
+]],[["Angrophobia "],["  anger or of becoming angry."
+]],[["Ankylophobia"],["immobility of a joint."
+]],[["Anthrophobia or Anthophobia"],["flowers."
+]],[["Anthropophobia"],["people or society."
+]],[["Antlophobia"],["floods."
+]],[["Anuptaphobia"],["staying single."
+]],[["Apeirophobia"],["infinity."
+]],[["Aphenphosmphobia"],["being touched. (Haphephobia)"
+]],[["Apiphobia"],["bees."
+]],[["Apotemnophobia"],["persons with amputations."
+]],[["Arachibutyrophobia"],["peanut butter sticking to the roof of the mouth."
+]],[["Arachnephobia or Arachnophobia"],["spiders."
+]],[["Arithmophobia"],["numbers."
+]],[["Arrhenphobia"],["men."
+]],[["Arsonphobia"],["fire."
+]],[["Asthenophobia"],["fainting or weakness."
+]],[["Astraphobia or Astrapophobia"],["thunder and lightning.(Ceraunophobia, Keraunophobia)"
+]],[["Astrophobia"],["stars or celestial space."
+]],[["Asymmetriphobia"],["asymmetrical things."
+]],[["Ataxiophobia"],["ataxia. (muscular incoordination)"
+]],[["Ataxophobia"],["disorder or untidiness."
+]],[["Atelophobia"],["imperfection."
+]],[["Atephobia"],["ruin or ruins."
+]],[["Athazagoraphobia"],["being forgotton or ignored or forgetting."
+]],[["Atomosophobia"],["atomic explosions."
+]],[["Atychiphobia"],["failure."
+]],[["Aulophobia"],["flutes."
+]],[["Aurophobia"],["gold."
+]],[["Auroraphobia"],["Northern lights."
+]],[["Autodysomophobia"],["one that has a vile odor."
+]],[["Automatonophobia"],["ventriloquist's dummies, animatronic creatures, wax statues - anything that falsly represents a sentient being."
+]],[["Automysophobia"],["being dirty."
+]],[["Autophobia"],["being alone or of oneself."
+]],[["Aviophobia or Aviatophobia"],["flying."
+]],[["Bacillophobia"],["microbes."
+]],[["Bacteriophobia"],["bacteria."
+]],[["Ballistophobia"],["missiles or bullets."
+]],[["Bolshephobia"],["Bolsheviks."
+]],[["Barophobia"],["gravity."
+]],[["Basophobia or Basiphobia"],[" Inability to stand.  walking or falling."
+]],[["Bathmophobia"],["stairs or steep slopes."
+]],[["Bathophobia"],["depth."
+]],[["Batophobia"],["heights or being close to high buildings."
+]],[["Batrachophobia"],["amphibians, such as frogs, newts, salamanders, etc."
+]],[["Belonephobia"],["pins and needles. (Aichmophobia)"
+]],[["Bibliophobia"],["books."
+]],[["Blennophobia"],["slime."
+]],[["Bogyphobia"],["bogeys or the bogeyman."
+]],[["Botanophobia"],["plants."
+]],[["Bromidrosiphobia or Bromidrophobia"],["body smells."
+]],[["Brontophobia"],["thunder and lightning."
+]],[["Bufonophobia"],["toads."
+]],[["Cacophobia"],["ugliness."
+]],[["Cainophobia or Cainotophobia"],["newness, novelty."
+]],[["Caligynephobia"],["beautiful women."
+]],[["Cancerophobia or Carcinophobia"],["cancer."
+]],[["Cardiophobia"],["the heart."
+]],[["Carnophobia"],["meat."
+]],[["Catagelophobia"],["being ridiculed."
+]],[["Catapedaphobia"],["jumping from high and low places."
+]],[["Cathisophobia"],["sitting."
+]],[["Catoptrophobia"],["mirrors."
+]],[["Cenophobia or Centophobia"],["new things or ideas."
+]],[["Ceraunophobia or Keraunophobia"],["thunder and lightning.(Astraphobia, Astrapophobia)"
+]],[["Chaetophobia"],["hair."
+]],[["Cheimaphobia or Cheimatophobia"],["cold.(Frigophobia, Psychophobia)"
+]],[["Chemophobia"],["chemicals or working with chemicals."
+]],[["Cherophobia"],["gaiety."
+]],[["Chionophobia"],["snow."
+]],[["Chiraptophobia"],["being touched."
+]],[["Chirophobia"],["hands."
+]],[["Chiroptophobia"],["bats."
+]],[["Cholerophobia"],["anger or the  cholera."
+]],[["Chorophobia"],["dancing."
+]],[["Chrometophobia or Chrematophobia"],["money."
+]],[["Chromophobia or Chromatophobia"],["colors."
+]],[["Chronophobia"],["time."
+]],[["Chronomentrophobia"],["clocks."
+]],[["Cibophobia"],["food.(Sitophobia, Sitiophobia)"
+]],[["Claustrophobia"],["confined spaces."
+]],[["Cleithrophobia or Cleisiophobia"],["being locked in an enclosed place."
+]],[["Cleptophobia"],["stealing."
+]],[["Climacophobia"],["stairs, climbing, or of falling downstairs."
+]],[["Clinophobia"],["going to bed."
+]],[["Clithrophobia or Cleithrophobia"],["being enclosed."
+]],[["Cnidophobia"],["stings."
+]],[["Cometophobia"],["comets."
+]],[["Coimetrophobia"],["cemeteries."
+]],[["Coitophobia"],["coitus."
+]],[["Contreltophobia"],["sexual abuse."
+]],[["Coprastasophobia"],["constipation."
+]],[["Coprophobia"],["feces."
+]],[["Consecotaleophobia"],["chopsticks."
+]],[["Coulrophobia"],["clowns."
+]],[["Counterphobia"],[" The preference by a phobic for fearful situations."
+]],[["Cremnophobia"],["precipices."
+]],[["Cryophobia"],["extreme cold, ice or frost."
+]],[["Crystallophobia"],["crystals or glass."
+]],[["Cyberphobia"],["computers or working on a computer."
+]],[["Cyclophobia"],["bicycles."
+]],[["Cymophobia or Kymophobia"],["waves or wave like motions."
+]],[["Cynophobia"],["dogs or rabies."
+]],[["Cypridophobia or Cypriphobia or Cyprianophobia or Cyprinophobia "],["  prostitutes or venereal disease."
+]],[["Decidophobia"],["making decisions."
+]],[["Defecaloesiophobia"],["painful bowels movements."
+]],[["Deipnophobia"],["dining or dinner conversations."
+]],[["Dementophobia"],["insanity."
+]],[["Demonophobia or Daemonophobia"],["demons."
+]],[["Demophobia"],["crowds. (Agoraphobia)"
+]],[["Dendrophobia"],["trees."
+]],[["Dentophobia"],["dentists."
+]],[["Dermatophobia"],["skin lesions."
+]],[["Dermatosiophobia or Dermatophobia or Dermatopathophobia"],["skin disease."
+]],[["Dextrophobia"],["objects at the right side of the body."
+]],[["Diabetophobia"],["diabetes."
+]],[["Didaskaleinophobia"],["going to school."
+]],[["Dikephobia"],["justice."
+]],[["Dinophobia"],["dizziness or whirlpools."
+]],[["Diplophobia"],["double vision."
+]],[["Dipsophobia"],["drinking."
+]],[["Dishabiliophobia"],["undressing in front of someone."
+]],[["Disposophobia"],["throwing stuff out. Hoarding."
+]],[["Domatophobia"],["houses or being in a house.(Eicophobia, Oikophobia)"
+]],[["Doraphobia"],["fur or skins of animals."
+]],[["Doxophobia"],["expressing opinions or of receiving praise."
+]],[["Dromophobia"],["crossing streets."
+]],[["Dutchphobia"],["the Dutch."
+]],[["Dysmorphophobia"],["deformity."
+]],[["Dystychiphobia"],["accidents."
+]],[["Ecclesiophobia"],["church."
+]],[["Ecophobia"],["home."
+]],[["Eicophobia"],["home surroundings.(Domatophobia, Oikophobia)"
+]],[["Eisoptrophobia"],["mirrors or of seeing oneself in a mirror."
+]],[["Electrophobia"],["electricity."
+]],[["Eleutherophobia"],["freedom."
+]],[["Elurophobia"],["cats. (Ailurophobia)"
+]],[["Emetophobia"],["vomiting."
+]],[["Enetophobia"],["pins."
+]],[["Enochlophobia"],["crowds"
+]],[["Enosiophobia or Enissophobia"],["having committed an unpardonable sin or of criticism."
+]],[["Entomophobia"],["insects."
+]],[["Eosophobia"],["dawn or daylight."
+]],[["Ephebiphobia"],["teenagers."
+]],[["Epistaxiophobia"],["nosebleeds."
+]],[["Epistemophobia"],["knowledge."
+]],[["Equinophobia"],["horses."
+]],[["Eremophobia"],["being oneself or of lonliness."
+]],[["Ereuthrophobia"],["blushing."
+]],[["Ergasiophobia"],[" 1)  work or functioning. 2) Surgeon's  operating."
+]],[["Ergophobia"],["work."
+]],[["Erotophobia"],["sexual love or sexual questions."
+]],[["Euphobia"],["hearing good news."
+]],[["Eurotophobia"],["female genitalia."
+]],[["Erythrophobia or Erytophobia or Ereuthophobia"],[" 1)  redlights. 2) Blushing. 3) Red."
+]],[["Febriphobia or Fibriphobia or Fibriophobia"],["fever."
+]],[["Felinophobia"],["cats. (Ailurophobia, Elurophobia, Galeophobia, Gatophobia)"
+]],[["Francophobia"],["France or French culture. (Gallophobia, Galiophobia)"
+]],[["Frigophobia"],["cold or cold things.(Cheimaphobia, Cheimatophobia, Psychrophobia)"
+]],[["Galeophobia or Gatophobia"],["cats."
+]],[["Gallophobia or Galiophobia"],[" Fear France or French culture. (Francophobia) "
+]],[["Gamophobia"],["marriage."
+]],[["Geliophobia"],["laughter."
+]],[["Gelotophobia"],["being laughed at."
+]],[["Geniophobia"],["chins."
+]],[["Genophobia"],["sex."
+]],[["Genuphobia"],["knees."
+]],[["Gephyrophobia or Gephydrophobia or Gephysrophobia"],["crossing bridges."
+]],[["Germanophobia"],["Germany or German culture."
+]],[["Gerascophobia"],["growing old."
+]],[["Gerontophobia"],["old people or of growing old."
+]],[["Geumaphobia or Geumophobia"],["taste."
+]],[["Glossophobia"],["speaking in public or of trying to speak."
+]],[["Gnosiophobia"],["knowledge."
+]],[["Graphophobia"],["writing or handwriting."
+]],[["Gymnophobia"],["nudity."
+]],[["Gynephobia or Gynophobia"],["women."
+]],[["Hadephobia"],["hell."
+]],[["Hagiophobia"],["saints or holy things."
+]],[["Hamartophobia"],["sinning."
+]],[["Haphephobia or Haptephobia"],["being touched."
+]],[["Harpaxophobia"],["being robbed."
+]],[["Hedonophobia"],["feeling pleasure."
+]],[["Heliophobia"],["the sun."
+]],[["Hellenologophobia"],["Greek terms or complex scientific terminology."
+]],[["Helminthophobia"],["being infested with worms."
+]],[["Hemophobia or Hemaphobia or Hematophobia"],["blood."
+]],[["Heresyphobia or Hereiophobia"],["challenges to official doctrine or of radical deviation."
+]],[["Herpetophobia"],["reptiles or creepy, crawly things."
+]],[["Heterophobia"],["the opposite sex. (Sexophobia)"
+]],[["Hexakosioihexekontahexaphobia"],["the number 666."
+]],[["Hierophobia"],["priests or sacred things."
+]],[["Hippophobia"],["horses."
+]],[["Hippopotomonstrosesquipedaliophobia"],["long words."
+]],[["Hobophobia"],["bums or beggars."
+]],[["Hodophobia"],["road travel."
+]],[["Hormephobia"],["shock."
+]],[["Homichlophobia"],["fog."
+]],[["Homilophobia"],["sermons."
+]],[["Hominophobia"],["men."
+]],[["Homophobia"],["sameness, monotony or of homosexuality or of becoming homosexual."
+]],[["Hoplophobia"],["firearms."
+]],[["Hydrargyophobia"],["mercurial medicines."
+]],[["Hydrophobia"],["water or of rabies."
+]],[["Hydrophobophobia"],["rabies."
+]],[["Hyelophobia or Hyalophobia"],["glass."
+]],[["Hygrophobia"],["liquids, dampness, or moisture."
+]],[["Hylephobia"],["materialism or the  epilepsy."
+]],[["Hylophobia"],["forests."
+]],[["Hypengyophobia or Hypegiaphobia"],["responsibility."
+]],[["Hypnophobia"],["sleep or of being hypnotized."
+]],[["Hypsiphobia"],["height."
+]],[["Iatrophobia"],["going to the doctor or of doctors."
+]],[["Ichthyophobia"],["fish."
+]],[["Ideophobia"],["ideas."
+]],[["Illyngophobia"],["vertigo or feeling dizzy when looking down."
+]],[["Iophobia"],["poison."
+]],[["Insectophobia "],["  insects."
+]],[["Isolophobia"],["solitude, being alone."
+]],[["Isopterophobia"],["termites, insects that eat wood."
+]],[["Ithyphallophobia"],["seeing, thinking about or having an erect penis."
+]],[["Japanophobia"],["Japanese."
+]],[["Judeophobia"],["Jews."
+]],[["Kainolophobia or Kainophobia"],["anything new, novelty."
+]],[["Kakorrhaphiophobia"],["failure or defeat."
+]],[["Katagelophobia"],["ridicule."
+]],[["Kathisophobia"],["sitting down."
+]],[["Katsaridaphobia"],["cockroaches."
+]],[["Kenophobia"],["voids or empty spaces."
+]],[["Keraunophobia or Ceraunophobia"],["thunder and lightning.(Astraphobia, Astrapophobia)"
+]],[["Kinetophobia or Kinesophobia"],["movement or motion."
+]],[["Kleptophobia"],["stealing."
+]],[["Koinoniphobia"],["rooms."
+]],[["Kolpophobia"],["genitals, particularly female."
+]],[["Kopophobia"],["fatigue."
+]],[["Koniophobia"],["dust. (Amathophobia)"
+]],[["Kosmikophobia"],["cosmic phenomenon."
+]],[["Kymophobia"],["waves. (Cymophobia)"
+]],[["Kynophobia"],["rabies."
+]],[["Kyphophobia"],["stooping."
+]],[["Lachanophobia"],["vegetables."
+]],[["Laliophobia or Lalophobia"],["speaking."
+]],[["Leprophobia or Lepraphobia"],["leprosy."
+]],[["Leukophobia"],["the color white."
+]],[["Levophobia"],["things to the left side of the body."
+]],[["Ligyrophobia"],["loud noises."
+]],[["Lilapsophobia"],["tornadoes and hurricanes."
+]],[["Limnophobia"],["lakes."
+]],[["Linonophobia"],["string."
+]],[["Liticaphobia"],["lawsuits."
+]],[["Lockiophobia"],["childbirth."
+]],[["Logizomechanophobia"],["computers."
+]],[["Logophobia"],["words."
+]],[["Luiphobia"],["lues, syphillis."
+]],[["Lutraphobia"],["otters."
+]],[["Lygophobia"],["darkness."
+]],[["Lyssophobia"],["rabies or of becoming mad."
+]],[["Macrophobia"],["long waits."
+]],[["Mageirocophobia"],["cooking."
+]],[["Maieusiophobia"],["childbirth."
+]],[["Malaxophobia"],["love play. (Sarmassophobia)"
+]],[["Maniaphobia"],["insanity."
+]],[["Mastigophobia"],["punishment."
+]],[["Mechanophobia"],["machines."
+]],[["Medomalacuphobia"],["losing an erection."
+]],[["Medorthophobia"],["an erect penis."
+]],[["Megalophobia"],["large things."
+]],[["Melissophobia"],["bees."
+]],[["Melanophobia"],["the color black."
+]],[["Melophobia"],[" Fear or hatred of music."
+]],[["Meningitophobia"],["brain disease."
+]],[["Menophobia"],["menstruation."
+]],[["Merinthophobia"],["being bound or tied up."
+]],[["Metallophobia"],["metal."
+]],[["Metathesiophobia"],["changes."
+]],[["Meteorophobia"],["meteors."
+]],[["Methyphobia"],["alcohol."
+]],[["Metrophobia"],[" Fear or hatred of poetry."
+]],[["Microbiophobia"],["microbes. (Bacillophobia)"
+]],[["Microphobia"],["small things."
+]],[["Misophobia or Mysophobia"],["being contaminated with dirt or germs."
+]],[["Mnemophobia"],["memories."
+]],[["Molysmophobia or Molysomophobia"],["dirt or contamination."
+]],[["Monophobia"],["solitude or being alone."
+]],[["Monopathophobia"],["definite disease."
+]],[["Motorphobia"],["automobiles."
+]],[["Mottephobia"],["moths."
+]],[["Musophobia or Muriphobia"],["mice."
+]],[["Mycophobia"],[" Fear or aversion to mushrooms."
+]],[["Mycrophobia"],["small things."
+]],[["Myctophobia"],["darkness."
+]],[["Myrmecophobia"],["ants."
+]],[["Mythophobia"],["myths or stories or false statements."
+]],[["Myxophobia"],["slime. (Blennophobia)"
+]],[["Nebulaphobia"],["fog. (Homichlophobia)"
+]],[["Necrophobia"],["death or dead things."
+]],[["Nelophobia"],["glass."
+]],[["Neopharmaphobia"],["new drugs."
+]],[["Neophobia"],["anything new."
+]],[["Nephophobia"],["clouds."
+]],[["Noctiphobia"],["the night."
+]],[["Nomatophobia"],["names."
+]],[["Nosocomephobia"],["hospitals."
+]],[["Nosophobia or Nosemaphobia"],["becoming ill."
+]],[["Nostophobia"],["returning home."
+]],[["Novercaphobia"],["your step-mother."
+]],[["Nucleomituphobia"],["nuclear weapons."
+]],[["Nudophobia"],["nudity."
+]],[["Numerophobia"],["numbers."
+]],[["Nyctohylophobia"],["dark wooded areas or of forests at night"
+]],[["Nyctophobia"],["the dark or of night."
+]],[["Obesophobia"],["gaining weight.(Pocrescophobia)"
+]],[["Ochlophobia"],["crowds or mobs."
+]],[["Ochophobia"],["vehicles."
+]],[["Octophobia "],["  the figure 8."
+]],[["Odontophobia"],["teeth or dental surgery."
+]],[["Odynophobia or Odynephobia"],["pain. (Algophobia)"
+]],[["Oenophobia"],["wines."
+]],[["Oikophobia"],["home surroundings, house.(Domatophobia, Eicophobia)"
+]],[["Olfactophobia"],["smells."
+]],[["Ombrophobia"],["rain or of being rained on."
+]],[["Ommetaphobia or Ommatophobia"],["eyes."
+]],[["Omphalophobia"],["belly buttons."
+]],[["Oneirophobia"],["dreams."
+]],[["Oneirogmophobia"],["wet dreams."
+]],[["Onomatophobia"],["hearing a certain word or of names."
+]],[["Ophidiophobia"],["snakes. (Snakephobia)"
+]],[["Ophthalmophobia"],["being stared at."
+]],[["Opiophobia"],[" Fear medical doctors experience of prescribing needed pain medications for patients."
+]],[["Optophobia"],["opening one's eyes."
+]],[["Ornithophobia"],["birds."
+]],[["Orthophobia"],["property."
+]],[["Osmophobia or Osphresiophobia"],["smells or odors."
+]],[["Ostraconophobia"],["shellfish."
+]],[["Ouranophobia or Uranophobia"],["heaven."
+]],[["Pagophobia"],["ice or frost."
+]],[["Panthophobia"],["suffering and disease."
+]],[["Panophobia or Pantophobia"],["everything."
+]],[["Papaphobia"],["the Pope."
+]],[["Papyrophobia"],["paper."
+]],[["Paralipophobia"],["neglecting duty or responsibility."
+]],[["Paraphobia"],["sexual perversion."
+]],[["Parasitophobia"],["parasites."
+]],[["Paraskavedekatriaphobia"],["Friday the 13th."
+]],[["Parthenophobia"],["virgins or young girls."
+]],[["Pathophobia"],["disease."
+]],[["Patroiophobia"],["heredity."
+]],[["Parturiphobia"],["childbirth."
+]],[["Peccatophobia"],["sinning or imaginary crimes."
+]],[["Pediculophobia"],["lice."
+]],[["Pediophobia"],["dolls."
+]],[["Pedophobia"],["children."
+]],[["Peladophobia"],["bald people."
+]],[["Pellagrophobia"],["pellagra."
+]],[["Peniaphobia"],["poverty."
+]],[["Pentheraphobia"],["mother-in-law. (Novercaphobia)"
+]],[["Phagophobia"],["swallowing or of eating or of being eaten."
+]],[["Phalacrophobia"],["becoming bald."
+]],[["Phallophobia"],["a penis, esp erect."
+]],[["Pharmacophobia"],["taking medicine."
+]],[["Phasmophobia"],["ghosts."
+]],[["Phengophobia"],["daylight or sunshine."
+]],[["Philemaphobia or Philematophobia"],["kissing."
+]],[["Philophobia"],["falling in love or being in love."
+]],[["Philosophobia"],["philosophy."
+]],[["Phobophobia"],["phobias."
+]],[["Photoaugliaphobia"],["glaring lights."
+]],[["Photophobia"],["light."
+]],[["Phonophobia"],["noises or voices or one's own voice; of telephones."
+]],[["Phronemophobia"],["thinking."
+]],[["Phthiriophobia"],["lice. (Pediculophobia)"
+]],[["Phthisiophobia"],["tuberculosis."
+]],[["Placophobia"],["tombstones."
+]],[["Plutophobia"],["wealth."
+]],[["Pluviophobia"],["rain or of being rained on."
+]],[["Pneumatiphobia"],["spirits."
+]],[["Pnigophobia or Pnigerophobia"],["choking of being smothered."
+]],[["Pocrescophobia"],["gaining weight. (Obesophobia)"
+]],[["Pogonophobia"],["beards."
+]],[["Poliosophobia"],["contracting poliomyelitis."
+]],[["Politicophobia"],[" Fear or abnormal dislike of politicians."
+]],[["Polyphobia"],["many things."
+]],[["Poinephobia"],["punishment."
+]],[["Ponophobia"],["overworking or of pain."
+]],[["Porphyrophobia"],["the color purple."
+]],[["Potamophobia"],["rivers or running water."
+]],[["Potophobia"],["alcohol."
+]],[["Pharmacophobia"],["drugs."
+]],[["Proctophobia"],["rectums."
+]],[["Prosophobia"],["progress."
+]],[["Psellismophobia"],["stuttering."
+]],[["Psychophobia"],["mind."
+]],[["Psychrophobia"],["cold."
+]],[["Pteromerhanophobia"],["flying."
+]],[["Pteronophobia"],["being tickled by feathers."
+]],[["Pupaphobia "],["  puppets."
+]],[["Pyrexiophobia"],["Fever."
+]],[["Pyrophobia"],["fire."
+]],[["Radiophobia"],["radiation, x-rays."
+]],[["Ranidaphobia"],["frogs."
+]],[["Rectophobia"],["rectum or rectal diseases."
+]],[["Rhabdophobia"],["being severely punished or beaten by a rod, or of being severely criticized. Also  magic.(wand)"
+]],[["Rhypophobia"],["defecation."
+]],[["Rhytiphobia"],["getting wrinkles."
+]],[["Rupophobia"],["dirt."
+]],[["Russophobia"],["Russians."
+]],[["Samhainophobia"],["Halloween."
+]],[["Sarmassophobia"],["love play. (Malaxophobia)"
+]],[["Satanophobia"],["Satan."
+]],[["Scabiophobia"],["scabies."
+]],[["Scatophobia"],["fecal matter."
+]],[["Scelerophibia"],["  bad men, burglars."
+]],[["Sciophobia Sciaphobia"],["shadows."
+]],[["Scoleciphobia"],["worms."
+]],[["Scolionophobia"],["school."
+]],[["Scopophobia or Scoptophobia"],["being seen or stared at."
+]],[["Scotomaphobia"],["blindness in visual field."
+]],[["Scotophobia"],["darkness. (Achluophobia)"
+]],[["Scriptophobia"],["writing in public."
+]],[["Selachophobia"],["sharks"
+]],[["Selaphobia"],["light flashes."
+]],[["Selenophobia"],["the moon."
+]],[["Seplophobia"],["decaying matter."
+]],[["Sesquipedalophobia"],["long words."
+]],[["Sexophobia"],["the opposite sex. (Heterophobia)"
+]],[["Siderodromophobia"],["trains, railroads or train travel."
+]],[["Siderophobia"],["stars."
+]],[["Sinistrophobia"],["things to the left or left-handed."
+]],[["Sinophobia"],["Chinese, Chinese culture."
+]],[["Sitophobia or Sitiophobia"],["food or eating. (Cibophobia)"
+]],[["Snakephobia"],["snakes. (Ophidiophobia)"
+]],[["Soceraphobia"],["parents-in-law."
+]],[["Social phobia"],["being evaluated negatively in social situations."
+]],[["Sociophobia"],["society or people in general."
+]],[["Somniphobia"],["sleep."
+]],[["Sophophobia"],["learning."
+]],[["Soteriophobia "],["  dependence on others."
+]],[["Spacephobia"],["outer space."
+]],[["Spectrophobia"],["specters or ghosts."
+]],[["Spermatophobia or Spermophobia"],["germs."
+]],[["Spheksophobia"],["wasps."
+]],[["Stasibasiphobia or Stasiphobia"],["standing or walking. (Ambulophobia)"
+]],[["Staurophobia"],["crosses or the crucifix."
+]],[["Stenophobia"],["narrow things or places."
+]],[["Stygiophobia or Stigiophobia"],["hell."
+]],[["Suriphobia"],["mice."
+]],[["Symbolophobia"],["symbolism."
+]],[["Symmetrophobia"],["symmetry."
+]],[["Syngenesophobia"],["relatives."
+]],[["Syphilophobia"],["syphilis."
+]],[["Tachophobia"],["speed."
+]],[["Taeniophobia or Teniophobia"],["tapeworms."
+]],[["Taphephobia Taphophobia"],["being buried alive or of cemeteries."
+]],[["Tapinophobia"],["being contagious."
+]],[["Taurophobia"],["bulls."
+]],[["Technophobia"],["technology."
+]],[["Teleophobia"],[" 1)  definite plans. 2) Religious ceremony."
+]],[["Telephonophobia"],["telephones."
+]],[["Teratophobia"],["bearing a deformed child or  monsters or deformed people."
+]],[["Testophobia"],["taking tests."
+]],[["Tetanophobia"],["lockjaw, tetanus."
+]],[["Teutophobia"],["German or German things."
+]],[["Textophobia"],["certain fabrics."
+]],[["Thaasophobia"],["sitting."
+]],[["Thalassophobia"],["the sea."
+]],[["Thanatophobia or Thantophobia"],["death or dying."
+]],[["Theatrophobia"],["theatres."
+]],[["Theologicophobia"],["theology."
+]],[["Theophobia"],["gods or religion."
+]],[["Thermophobia"],["heat."
+]],[["Tocophobia"],["pregnancy or childbirth."
+]],[["Tomophobia"],["surgical operations."
+]],[["Tonitrophobia"],["thunder."
+]],[["Topophobia"],["certain places or situations, such as stage fright."
+]],[["Toxiphobia or Toxophobia or Toxicophobia"],["poison or of being Accidently poisoned."
+]],[["Traumatophobia"],["injury."
+]],[["Tremophobia"],["trembling."
+]],[["Trichinophobia"],["trichinosis."
+]],[["Trichopathophobia or Trichophobia"],["hair. (Chaetophobia, Hypertrichophobia)"
+]],[["Triskaidekaphobia"],["the number 13."
+]],[["Tropophobia"],["moving or making changes."
+]],[["Trypanophobia"],["injections."
+]],[["Tuberculophobia"],["tuberculosis."
+]],[["Tyrannophobia"],["tyrants."
+]],[["Uranophobia or Ouranophobia"],["heaven."
+]],[["Urophobia"],["urine or urinating."
+]],[["Vaccinophobia"],["vaccination."
+]],[["Venustraphobia"],["beautiful women."
+]],[["Verbophobia"],["words."
+]],[["Verminophobia"],["germs."
+]],[["Vestiphobia"],["clothing."
+]],[["Virginitiphobia"],["rape."
+]],[["Vitricophobia"],["step-father."
+]],[["Walloonphobia"],["the Walloons."
+]],[["Wiccaphobia"],["witches and witchcraft."
+]],[["Xanthophobia"],["the color yellow or the word yellow."
+]],[["Xenoglossophobia"],["foreign languages."
+]],[["Xenophobia"],["strangers or foreigners."
+]],[["Xerophobia"],["dryness."
+]],[["Xylophobia"],[" 1)  wooden objects. 2) Forests."
+]],[["Xyrophobia"],[" razors. "
+]],[["Zelophobia"],["jealousy."
+]],[["Zeusophobia"],["God or gods."
+]],[["Zemmiphobia"],["the great mole rat."
+]],[["Zoophobia"],["animals."
+
+//Medicine
+
+]],[["Myoclonus / myoclonic (twitch/jerk/siezures) "],[" involountary while falling asleep"
+]],[["synchronous diaphragmatic flutter "],[" hicc{up/ough}"
+]],[["micturition"],["urination"
+]],[["diaphoresis"],["perspiration {extreme}"
+]],[["pandiculation"],[" yawning"
+]],[["sternutation "],[" sneeze"
+]],[["mastication "],["chewing"
+]],[["pruritus"],["itching"
+]],[["contusion "],[" bruise"
+]],[["radiocarpal joint"],["wrist"
+]],[["{cutis anserina/ horripilation} "],[" goosebumps"
+]],[["cephalalgia "],[" headache"
+]],[["Tachycardia / {tachycardic} "],["abnormally rapid beating of the heart"
+]],[["epistaxis "],[" nosebleed"
+]],[["ambulation"],["walking"
+]],[["deglutition "],[" swallowing"
+]],[["perseveration "],[" repetition of a particular response"
+]],[["stereotypy "],[" a highly repetitive idiosyncratic behaviour"
+]],[["vestigial "],[" redundant"
+]],[["philtrum "],[" groove above your lip"
+]],[["reciprocity "],[" responding to a positive action with another positive action"
+]],[["groaking "],[" the act of watching people eat, hoping they/'ll offer you some"
+]],[["saccadic masking (saccades) "],[" filtering input from (very fast eye movements)"
+]],[["eristic "],[" refers to an argument that aims to successfully dispute another's argument"
+]],[["Dysania "],[" Finding it hard to s/'elever"
+]],[["Apophasis "],[" pretending not to want to talk about something, after bringing it up"
+]],[["Autosomal dominant Compelling Helio-Ophthalmic Outburst (ACHOO) syndrome"],["condition causing sunlight to induce sternutation"
+]],[["Borborygmi "],["Derived originally from an onomatopoeic Greek word, a borborygmus is a rumbling in the stomach or bowels. Borborygmi are produced as the contents of the intestines are pushed along by waves of muscle contractions called peristalsis, although trapped gas from digested food or swallowed air can also cause your borborygmi to become noisier than normal. Bonus fact: Queasy stomach rumbles were called wambles in Tudor English, and you/'d be wamble-cropped if you weren/'t feeling well."
+]],[[" cachinnation"],["A study in 2013 found that when people laugh, it/'s only because they/'ve found something funny about 20 percent of the time. The rest of time, we use laughter as a means of signaling things like agreement, affection, ease, and nostalgia that we evolved long before communication through language was possible. And a fit of spontaneous, uproarious, unrestrained laughter is called cachinnation."
+]],[[" Cicatrization"],[" is the formation of a cicatrix, or a scar. More generally, it refers to any of the healing and sealing processes that help a wound to mend, including the formation of a scab."
+]],[[" Deglutition"],[" is the proper word for the action of swallowing. It/'s an etymological cousin of words like glut, glutton, and gullet."
+]],[[" Diaphoresis "],["Sweating has been known by a whole host of (ironically quite beautiful) words in history, including the likes of resudation, sudorification, and diaphoresis, a 17th century word that literally means to carry through. Nowadays, /'diaphoresis /' is rarely encountered outside of purely medical contexts, where it/'s used as an older or more formal name for excessive perspiration - a condition better known as hyperhidrosis."
+]],[[" Eructation "],[" As well as being another word for a volcanic eruption, eructation is the medical name for burping, while the burp itself is called a ructus. For what it/'s worth, the Romans knew excessive or unstoppable belching as ructabundus (although sadly that word has yet to catch on in English)."
+]],[[" Flatus "],[" So if a ructus is a burp, no prizes for guessing that a flatus goes the other way. Technically though, flatus is just the build up of gas in the stomach or bowels, not the actual expulsion of it. For that, why not try using an old Tudor English word for a fart - ventosity."
+]],[[" Horripilation "],["literally means bristled hairs, and is the proper name for what you probably know as gooseflesh or goose bumps. Another name for the same thing is piloerection, although that also includes the phenomenon of animals raising their hair or fur (or, in the case of porcupines, their quills) when they/'re stressed or under attack."
+]],[["  Lachrymation"],[" is the proper name for shedding tears, which are produced in the lachrymal glands above the outer edges of the eyes and are stored in a lachrymal sac on either side of the bridge of the nose. And if you want to get really technical, there are three different types of tears: basal tears, which are constantly produced to keep the surface of the eyes moist; reflex tears, which are the extra tears produced when something enters or irritates the eye; and psychic tears, which are those produced as a response to a mental or emotional stimulus."
+]],[["  Mastication"],[" is the proper name for chewing. Etymologically, it/'s descended from a Greek word literally meaning /'to gnash your teeth,/' and is related both to mandible and papier-mache (which is literally /'chewed paper/' in French)."
+]],[["  Nictitation "],["is the proper name for blinking or winking, and comes from an old pre-Latin word meaning /'to incline or bend together,/' just as the eyelids do. That twitching muscle in your eyelid after you/'ve strained your eyes? That/'s a blepharospasm."
+]],[["Obdormition"],[" is the proper name for sleeping, but it/'s usually only used in reference to the feeling of numbness, caused by pressure on a nerve, when a limb or muscle /'falls asleep./' Pins and needles, incidentally, is properly called paraesthesia."
+]],[[" Pandiculation"],[" is essentially a catchall term for all those things you do when you/'re tired or just waking up, like yawning, stretching your arms and legs, and cracking your joints. Monday morning, in other words."
+]],[[" Rhinorrhoea "],[" When your nose runs, that/'s rhinorrhoea. Except when you/'re having a nosebleed, which is called epistaxis."
+]],[[" Singultus "],[" In Latin, singultus was speech interrupted by sobbing, or an inability to speak caused by crying. Based on this, English borrowed the word singult in the 16th century for a single sob, while in the sense of something spasmodically interrupting your speech, and singultus came to be used as a more formal name for hiccups."
+]],[[" Sternutation "],["A sneeze or a sneezing fit is properly called a sternutation. Anything described as sternutatory causes sneezing."
+]],[[" Tussication "],[" Tussis is the Latin word for /'cough./' It/'s the origin of both tussication, a formal word for coughing, and pertussis, the medical name for whooping cough."
+]],[["alexithymia"], ["deficiency in understanding, processing, or describing emotions" 
+
+//WordLists
+
+]],[["Enfranchise "], ["give voting rights" 
+]],[["Hamper"], [" hinder; obstruct " 
+]],[["Placid "], ["calm; peaceful  "
+]],[["Remuneration"], [" payment for work done"  
+]],[["Bilk"], [" cheat; defraud  "
+]],[["Covert"], [" hidden; undercover"  
+]],[["Engender "], ["cause   "
+]],[["Renown"], [" fame  "
+]],[["Abasement"], [" humiliation; degradation"  
+]],[["Billowing "], ["swelling; fluttering; waving"   
+]],[["Harangue"], [" noisy, attacking speech  "
+]],[["Nullify "], ["to counter; make unimportant"  
+]],[["Plaintiff "], ["petitioner (in court of law)"  
+]],[["Replete "], ["full  "
+]],[["Tangible"], [" can be touched"  
+]],[["Abrogate"], ["cancel; deny; repeal"  
+]],[["Labyrinthine "], ["complicated; highly convoluted"  
+]],[["Plaudit "], ["statement giving strong praise  "
+]],[["Reprehensible"], [" shameful; very bad  "
+]],[["Creditable "], ["praiseworthy  "
+]],[["Ensconce "], ["establish firmly in a position"  
+]],[["Laceration "], ["a cut  "
+]],[["Obdurate "], ["stubborn  "
+]],[["Plausible "], ["can be believed; reasonable"  
+]],[["Reprieve "], ["a respite; postponement of a sentence"  
+]],[["Tawdry of"], [" little value; gaudy  "
+]],[["Blighted "], ["damaged; destroyed; ruined  "
+]],[["Credulous "], ["gullible; ready to believe anything  "
+]],[["Enshroud"], [" cover  "
+]],[["Haughtiness"], [" arrogance; pride  "
+]],[["Lachrymose"], [" tearful; sad  "
+]],[["Obfuscate"], [" deliberately make something difficult to understand  "
+]],[["Plethora"], [" an excess  "
+]],[["Repudiate "], ["shun; eschew  "
+]],[["Tedium"], [" boredom  "
+]],[["Abstemious"], [" self denying; refraining from indulging  "
+]],[["Blithe "], ["free-spirited; carefree  "
+]],[["Lackluster"], [" dull; monotonous; bland  "
+]],[["Rescind"], [" retract; repeal  "
+]],[["Temper"], [" to moderate; soften  "
+]],[["Abstruse "], ["difficult to understand; obscure  "
+]],[["Blunderbuss "], ["1. ancient weapon (type of gun); 2. a clumsy person  "
+]],[["Envenom "], ["to cause bitterness and bad feeling  "
+]],[["Hedonism "], ["self indulgence; pleasure-seeking  "
+]],[["Oblique "], ["indirect; slanting  "
+]],[["Accolade "], ["tribute; honor; praise  "
+]],[["Bolster"], [" support; prop up  "
+]],[["Ephemeral "], ["short-lived  "
+]],[["Hedonist "], ["a pleasure seeker  "
+]],[["Lamentation "], ["expression of regret or sorrow  "
+]],[["Tentative"], [" not certain  "
+]],[["Acquiesce "], ["to agree to; give in to  "
+]],[["Bombast "], ["arrogant, pompous language  "
+]],[["Curtail "], ["cut short  "
+]],[["Epicure"], [" someone who appreciates good food and drink  "
+]],[["Lampoon"], [" ridicule; spoof  "
+]],[["Tenuous "], ["flimsy; not solid"
+]],[["Acrid"], [" sharp; pungent (used of smells and tastes)  "
+]],[["Boorish "], ["ill-mannered  "
+]],[["Cynical"], [" believing that people act only out of selfish motives " 
+]],[["Epistle"], [" a letter (form of communication)  "
+]],[["Heresy"], [" against orthodox opinion  "
+]],[["Poignant "], ["deeply moving; strongly affecting the emotions  "
+]],[["Respite "], ["a break; intermission  "
+]],[["Terse "], ["concise; to the point  "
+]],[["Bourgeois"], [" middle class  "
+]],[["Languid "], ["tired; slow  "
+]],[["Obscured "], ["hidden; covered; buried  "
+]],[["Poised"], [" calm; collected; self-possessed  "
+]],[["Resplendent"], [" shining; glowing  "
+]],[["Acuity"], [" sharpness (mental or visual)  "
+]],[["Braggart "], ["someone who boasts  "
+]],[["Epitomized "], ["typified; characterized; personified  "
+]],[["Hidebound "], ["rigid in opinions  "
+]],[["Languish "], ["decay; fade away; get weaker  "
+]],[["Obsequious"], [" servile; submissive  "
+]],[["Polemical"], [" causing debate or argument  "
+]],[["Restorative"], [" a tonic  "
+]],[["Thwart"], [" prevent; frustrate  "
+]],[["Adamant"], [" forceful; inflexible  "
+]],[["Brawny"], [" muscular  "
+]],[["Equivocate"], [" speak ambiguously; avoid telling the truth  "
+]],[["Larceny "], ["theft; robbery; stealing  "
+]],[["Ponderous "], ["weighty; slow and heavy  "
+]],[["Timorous"], [" cowardly; fearful  "
+]],[["Adroit"], [" skilful  "
+]],[["Largess "], ["generosity  "
+]],[["Pontificate"], [" speak pompously or dogmatically  "
+]],[["Reticent "], ["restrained; holding something back;uncommunicative  "
+]],[["Tirade"], [" stream of verbal abuse  "
+]],[["Adulation"], [" strong admiration; worship  "
+]],[["Bristle"], [" to show irritation  "
+]],[["Decoy"], [" lure; trap; trick  "
+]],[["Laud"], [" praise  "
+]],[["Obstreperous "], ["noisy and boisterous  "
+]],[["Portend"], [" foretell    "
+]],[["Titter"], [" giggle quietly  "
+]],[["Broach"], [" start to discuss; approach  "
+]],[["Deference "], ["respect  "
+]],[["Esoteric"], [" obscure and difficult to understand  "
+]],[["Hoary"], [" old  "
+]],[["Lavish"], [" on a grand scale; wasteful  "
+]],[["Obtuse "], ["mentally dull  "
+]],[["Portent"], [" a warning sign; omen  "
+]],[["Revere"], [" worship  "
+]],[["Tome"], [" large book  "
+]],[["Advocate "], ["support  "
+]],[["Brusque"], [" blunt; abrupt  "
+]],[["Defoliate "], ["cause leaves to fall off  "
+]],[["Espouse "], ["promote; take up; support  "
+]],[["Hone"], [" sharpen; increase; whet  "
+]],[["Lax"], [" careless; not strict  "
+]],[["Obviate "], ["avoid; make unnecessary  "
+]],[["Poseur"], [" someone who puts on an act  "
+]],[["Torpid "], ["inactive; lazy; stagnant  "
+]],[["Bulwark"], ["fortification; barricade; wall  "
+]],[["Defunct"], [" no longer in existence  "
+]],[["Legend"], [" 1. key to map; 2. myth or story  "
+]],[["Odious"], [" hateful  "
+]],[["Posterity "], ["future generations  "
+]],[["Rife"], [" common  "
+]],[["Torpor"], [" dormancy; sluggishness; inactivity  "
+]],[["Affable "], ["friendly; social; easygoing  "
+]],[["Legion"], [" in large numbers  "
+]],[["Officious"], [" domineering; intrusive; meddlesome  "
+]],[["Posthumous"], [" after death  "
+]],[["Totter"], [" walk unsteadily"
+]],[["Alacrity"], [" eagerness; enthusiasm; quickness  "
+]],[["Burgeon "], ["grow; flourish; put forth new shoots  "
+]],[["Deleterious "], ["harmful  "
+]],[["Euphemism "], ["a polite phrase to cover something unpleasant  "
+]],[["Lethargic"], [" tired; without energy  "
+]],[["Ogle "], ["stare at; observe in an obvious manner  "
+]],[["Postulate"], [" hypothesize; propose  "
+]],[["Tractable "], ["obedient; dutiful; polite  "
+]],[["Burnish "], ["polish  "
+]],[["Deliberate "], ["to think over deeply  "
+]],[["Euphony "], ["pleasant sounds  "
+]],[["Iconoclast "], ["person who opposes orthodoxy  "
+]],[["Levity "], ["flippancy; joking about serious matters  "
+]],[["Potable "], ["suitable for drinking  "
+]],[["Rotund "], ["round  "
+]],[["Buttress "], ["strengthen; support"
+]],[["Delineation "], ["demarcation; explanation; definition; outlining"
+]],[["Libertarian "], ["someone who opposes tyranny"
+]],[["Ruminate "], ["think over something; ponder"
+]],[["Allay "], ["to lessen  "
+]],[["Byline "], ["the line that tells you who wrote an article  "
+]],[["Demur "], ["hesitate; refuse  "
+]],[["Ignominious "], ["shameful  "
+]],[["Liniment "], ["soothing lotion  "
+]],[["Ruse "], ["trick; stratagem  "
+]],[["Transgress "], ["go astray; disobey; commit a sin  "
+]],[["Alleviate "], ["make less severe  "
+]],[["Cacophony "], ["discordant loud noises   "
+]],[["Exasperated "], ["frustrated; annoyed  "
+]],[["Ignominy "], ["shame [ignominious (a) = shameful]  "
+]],[["Lithe "], ["flexible; supple  "
+]],[["Saccharin "], ["falsely sweet  "
+]],[["Transient "], ["short-lived; ephemeral  "
+]],[["Aloof "], ["distant; detached; cold  "
+]],[["Cajole "], ["coax  "
+]],[["Exceptionable "], ["very bad (something which we should object to)  "
+]],[["Onerous "], ["burdensome; hard to undertake  "
+]],[["Preamble "], ["introductory material  "
+]],[["Sacrosanct "], ["very holy; inviolable  "
+]],[["Deplore "], ["regret  "
+]],[["Exculpate "], ["free someone from blame; pardon; acquit  "
+]],[["Illusory "], ["deceptive; false; misleading  "
+]],[["Lobbyist "], ["person who tries to persuade someone to support a particular cause  "
+]],[["Onus "], ["burden  "
+]],[["Precarious "], ["unstable; risky  "
+]],[["Sagacious "], ["wise  "
+]],[["Trepidation "], ["fear  "
+]],[["Amass "], ["accumulate  "
+]],[["Callow "], ["immature  "
+]],[["Depravity "], ["moral corruption  "
+]],[["Execrable "], ["very, very bad  "
+]],[["Immoderate "], ["excessive; extreme  "
+]],[["Lofty "], ["snooty; arrogant; haughty  "
+]],[["Deprecate "], ["criticize; denounce  "
+]],[["Exegesis "], ["scholarly explanation or interpretation  "
+]],[["Longevity "], ["long life  "
+]],[["Opulent "], ["wealthy; rich; magnificent  "
+]],[["Precept "], ["guiding principle  "
+]],[["Salacious "], ["lecherous; erotic  "
+]],[["Trite "], ["unoriginal; dull  "
+]],[["Candor "], ["frankness; openness  "
+]],[["Deride "], ["ridicule; make fun of; mock  "
+]],[["Exemplary "], ["outstandingly good; setting a fine example  "
+]],[["Loquacious "], ["talkative  "
+]],[["Ordain "], ["1. destine; 2. confer holy orders on a priest  "
+]],[["Precinct "], ["district of a city  "
+]],[["Sallow "], ["yellowish  "
+]],[["Ambivalence "],["lack of clarity; wavering; being undecided  "]],[[
+"Cantankerous "], ["bad-tempered; quarrelsome  "]],[[
+"Derogatory "], ["uncomplimentary  "]],[[
+"Exemplify "], ["to serve as a good example  "]],[[
+"Impecunious "], ["having no money  "]],[[
+"Lucid "], ["clear  "]],[[
+"Ornate "], ["highly decorated  "]],[[
+"Precipice "], ["steep slope  "]],[[
+"Salubrious "], ["health-giving  "]],[[
+"Truant "], ["shirker; someone absent without permission  "]],[[
+"Ambulatory "], ["able to walk around (used of hospital patients)  "]],[[
+"Capacious "], ["spacious  "]],[[
+"Desecrate "], ["to damage or pollute a holy place  "]],[[
+"Exhaustive "], ["complete and thorough  "]],[[
+"Impious "], ["wicked; profane  "]],[[
+"Ludicrous "], ["ridiculous; silly  "]],[[
+"Orthodox "], ["conventional  "]],[[
+"Precipitous "], ["done in a hurry  "]],[[
+"Salutary "], ["something which teaches you a lesson; beneficial  "]],[[
+"Truncate "], ["cut short  "]],[[
+"Ameliorate "], ["make better  "]],[[
+"Capitulate "], ["surrender; give in to  "]],[[
+"Desecration "], ["spoiling something holy  "]],[[
+"Exonerates "], ["acquits; absolves; removes blame  "]],[[
+"Impoverished "], ["destitute; poor  "]],[[
+"Lukewarm "], ["1. unenthusiastic; 2. neither hot nor cold  "]],[[
+"Ossify "], ["1. turn to bone; 2. become fixed and rigid  "]],[[
+"Preclude "], ["prevent or make impossible  "]],[[
+"Sanctimonious"], [" hypocritically holy  "]],[[
+"Tumult "], ["uproar; noise  "]],[[
+"Amelioration "], ["improvement  "]],[[
+"Carping "], ["constant criticism  "]],[[
+"Desist "], ["stop; discontinue; cease  "]],[[
+"Exorcism "], ["getting free/rid of; eliminating (especially demons)  "]],[[
+"Impromptu "], ["unrehearsed; spontaneous  "]],[[
+"Lummox "], ["clumsy person  "]],[[
+"Ostentatious "], ["showy  "]],[[
+"Precocious "], ["developing early  "]],[[
+"Sanction "], ["give approval to  "]],[[
+"Turpitude "], ["depravity  "]],[[
+"Amiable "], ["friendly  "]],[[
+"Cartographer "], ["person who makes maps  "]],[[
+"Despondent "], ["having no hope; miserable  "]],[[
+"Expatriate "], ["refugee; emigrant; someone living away from his own country  "]],[[
+"Inadvertent "], ["not intentional  "]],[[
+"Luscious "], ["juicy; moist; succulent  "]],[[
+"Oust "], ["push out of a position  "]],[[
+"Predecessor "], ["one who came before  "]],[[
+"Sanguinary "], ["bloodthirsty; bloody  "]],[[
+"Tyro "], ["novice; beginner  "]],[[
+"Amity "], ["friendship  "]],[[
+"Castigate "], ["scold strongly  "]],[[
+"Destitution "], ["hardship; poverty; misery  "]],[[
+"Expedient "], ["convenient; practical  "]],[[
+"Incantation "], ["chant; invocation; prayer  "]],[[
+"Sanguine "], ["optimistic; cheerful  "]],[[
+"Amorphous "], ["lacking in shape  "]],[[
+"Catharsis "], ["purging of pent-up emotions  "]],[[
+"Expedite "], ["make faster  "]],[[
+"Incarceration "], ["putting in prison  "]],[[
+"Machinations "], ["plots and plans  "]],[[
+"Overwrought "], ["worked up; in an emotional state  "]],[[
+"Preeminent "], ["famous; outstanding  "]],[[
+"Sardonic "], ["mocking  "]],[[
+"Unalloyed "], ["undiluted; total  "]],[[
+"Analgesic "], ["medicine to combat pain  "]],[[
+"Caucus "], ["type of private political meeting  "]],[[
+"Exposition "], ["clear explanation  "]],[[
+"Incessant "], ["without stopping  "]],[[
+"Maelstrom "], ["whirlpool; storm in the ocean  "]],[[
+"Palatable "], ["good to eat; agreeable  "]],[[
+"Prerogative "], ["right or privilege  "]],[[
+"Savant"], ["person with knowledge  "]],[[
+"Unctuous "], ["oily; using excessive flattery  "]],[[
+"Analogous "], ["comparable  "]],[[
+"Caustic "], ["burning  "]],[[
+"Detrimental "], ["harmful  "]],[[
+"Extol "], ["praise  "]],[[
+"Incipient "], ["just beginning  "]],[[
+"Magnanimous "], ["generous; big-hearted  "]],[[
+"Palisade "], ["fence made of posts  "]],[[
+"Prescient "], ["having fore-knowledge  "]],[[
+"Undermined "], ["damaged; attacked  "]],[[
+"Anarchy "], ["chaos; lack of government  "]],[[
+"Cavalcade "], ["procession of vehicles  "]],[[
+"Devoured "], ["greedily eaten/consumed  "]],[[
+"Extradite "], ["deport from one country back to the home country  "]],[[
+"Inclination "], ["tendency; a leaning toward  "]],[[
+"Magnate "], ["powerful businessman  "]],[[
+"Palliative "], ["a remedy that improves but doesn't cure  "]],[[
+"Presentiment "], ["a feeling that something might happen  "]],[[
+"Scapegoat "], ["person on whom blame is placed for faults of others  "]],[[
+"Underscore "], ["emphasize "]],[[
+"Anecdote "], ["a brief amusing story  "]],[[
+"Celerity "], ["speed  "]],[[
+"Dexterous "], ["skilful with hands  "]],[[
+"Extraneous "], ["irrelevant  "]],[[
+"Maladroit "], ["clumsy; unskillful  "]],[[
+"Pallid "], ["pale  "]],[[
+"Presumptuous "], ["assuming too much; arrogant  "]],[[
+"Scrupulous "], ["careful; diligent; painstaking  "]],[[
+"Animosity "], ["hatred; antagonism  "]],[[
+"Censorious "], ["disapproving; critical  "]],[[
+"Dichotomy "], ["a division into two parts  "]],[[
+"Extrapolate "], ["extend; predict on the basis of known data  "]],[[
+"Incongruous "], ["not fitting in; out of place  "]],[[
+"Malady "], ["illness  "]],[[
+"Palpable "], ["easily felt; easily perceived  "]],[[
+"Unfetter "], ["set free  "]],[[
+"Annex (n) "], ["a building which is an addition to an existingbuilding  "]],[[
+"Censure "], ["blame  "]],[[
+"Didactic "], ["intended to teach; instructive  "]],[[
+"Extrinsic "], ["irrelevant; on the outside  "]],[[
+"Inconsequential "], ["unimportant; insignificant; negligible  "]],[[
+"Malediction "], ["a curse  "]],[[
+"Panacea "], ["remedy for all ills  "]],[[
+"Prevaricate "], ["speak misleadingly and evasively  "]],[[
+"Scuttle "], ["sink  "]],[[
+"Unfrock "], ["to remove a priest from his position  "]],[[
+"Annex "], ["(v) take possession of; seize; capture  "]],[[
+"Diffident "], ["lacking confidence  "]],[[
+"Fallacious "], ["false  "]],[[
+"Inconspicuous "], ["not easily seen; subtle; not noticeable  "]],[[
+"Malefactor "], ["a wrong-doer  "]],[[
+"Paradigm "], ["1. example; 2. model; 3. way of looking at things  "]],[[
+"Seminary "], ["an institution in which priests are trained  "]],[[
+"Certitude "], ["certainty  "]],[[
+"Digress "], ["wander off the subject  "]],[[
+"Indelible "], ["cannot be wiped out  "]],[[
+"Malinger "], ["deliberately avoid work; shirk  "]],[[
+"Proclivity "], ["tendency towards  "]],[[
+"Sensuous "], ["appealing to the senses  "]],[[
+"Unscathed "], ["unharmed; intact; without a scratch  "]],[[
+"Antagonism "], ["hostility; strong opposition  "]],[[
+"Charlatan "], ["trickster who claims knowledge he doesn't have  "]],[[
+"Dike "], ["dam; embankment  "]],[[
+"Malingerer "], ["person who deliberately tries to avoid work  "]],[[
+"Paragon "], ["a perfect example  "]],[[
+"Procrastinate "], ["delay; put off  "]],[[
+"Sentinel "], ["guard; sentry  "]],[[
+"Unwitting "], ["not deliberate; unconscious  "]],[[
+"Antagonistic "], ["opposed; hostile; aggressive  "]],[[
+"Chary "], ["wary of; cautious about; reluctant to give  "]],[[
+"Dilatory "], ["slow; falling behind with one's work  "]],[[
+"Paramount "], ["of supreme importance  "]],[[
+"Prodigal "], ["wasteful; extravagant  "]],[[
+"Sequester "], ["isolate  "]],[[
+"Upbraid "], ["scold; tell off; reprimand  "]],[[
+"Antediluvian "], ["outdated; prehistoric; very old-fashioned  "]],[[
+"Fastidious "], ["overly particular; finicky  "]],[[
+"Indolence "], ["laziness  "]],[[
+"Prodigious "], ["very large  "]],[[
+"Uproarious "], ["hilarious; hysterical; very funny  "]],[[
+"Anthology "], ["a book which is a collection of poems or stories  "]],[[
+"Chicanery "], ["trickery  "]],[[
+"Dilettante "], ["person who dabbles in a subject without serious study  "]],[[
+"Fatuous "], ["silly; foolish  "]],[[
+"Inductee "], ["novice; beginner  "]],[[
+"Parched "], ["dried up  "]],[[
+"Profane "], ["unholy  "]],[[
+"Serene "], ["calm; peaceful  "]],[[
+"Upshot "], ["outcome  "]],[[
+"Anthropocentrism "], ["putting man at the center of one's philosophy  "]],[[
+"Chimerical "], ["changeable; unstable  "]],[[
+"Profanity "], ["swearing; cursing  "]],[[
+"Urbane "], ["sophisticated; suave  "]],[[
+"Antiquated "], ["outdated; old fashioned  "]],[[
+"Choleric "], ["easily angered  "]],[[
+"Diorama "], ["model of a scene  "]],[[
+"Fecund "], ["fertile  "]],[[
+"Inebriation "], ["drunkenness; intoxication  "]],[[
+"Marshal "], ["to gather together  "]],[[
+"Parity "], ["equality  "]],[[
+"Profound "], ["having deep meaning  "]],[[
+"Servile "], ["overly submissive; groveling  "]],[[
+"Usurp "], ["take someone's position (usually by force)  "]],[[
+"Apathetic "], ["indifferent; uninterested; lethargic  "]],[[
+"Chronicler "], ["person who records historical information  "]],[[
+"Dirge "], ["mournful song  "]],[[
+"Felicitous "], ["apt  "]],[[
+"Ineffable "], ["cannot be expressed in words  "]],[[
+"Marsupial "], ["pouched mammal (like a kangaroo)  "]],[[
+"Parochial "], ["narrow-minded; concerned only with local matters  "]],[[
+"Profundity "], ["depth  "]],[[
+"Skeptical "], ["doubting; not gullible  "]],[[
+"Apathy "], ["lack of interest or emotion  "]],[[
+"Circuitous "], ["indirect  "]],[[
+"Disapprobation "], ["disapproval  "]],[[
+"Fervor "], ["passion; enthusiasm  "]],[[
+"Inept "], ["incompetent; unskilled; useless  "]],[[
+"Martinet "], ["person who believes in strict discipline  "]],[[
+"Parody "], ["a mockery; imitation for ridicule; spoof  "]],[[
+"Proletarian "], ["member of the working class  "]],[[
+"Skirmish "], ["minor battle  "]],[[
+"Utopian "], ["a believer in an ideal world  "]],[[
+"Apocryphal "], ["of doubtful origin  "]],[[
+"Circumlocution "], ["using too many words; long-windedness  "]],[[
+"Fickle "], ["unpredictable; whimsical; easily swayed  "]],[[
+"Inertia "], ["inactivity; lethargy  "]],[[
+"Masochist "], ["person who intentionally inflicts pain on himself  "]],[[
+"Parry "], ["ward off; avoid  "]],[[
+"Prolific "], ["producing a lot  "]],[[
+"Sluggard "], ["slow-moving; lethargic person  "]],[[
+"Vacillate "], ["waver; hesitate  "]],[[
+"Appease "], ["pacify; soothe; calm down; make peace with  "]],[[
+"Circumscribe "], ["limit  "]],[[
+"Discord "], ["disagreement  "]],[[
+"Finesse "], ["skill  "]],[[
+"Inevitable "], ["cannot be avoided  "]],[[
+"Matriarchy "], ["society governed by women  "]],[[
+"Parsimonious "], ["economical; frugal; thrifty  "]],[[
+"Proponents "], ["promoters; supporters  "]],[[
+"Smelt "], ["refine an ore  "]],[[
+"Vacuous "], ["empty; silly; meaningless  "]],[[
+"Apprehensive "], ["worried; fearful  "]],[[
+"Circumspect "], ["cautious; considering all sides  "]],[[
+"Discordancy "], ["cacophony; harshness; jarring  "]],[[
+"Fitful "], ["not continuous; stopping and starting  "]],[[
+"Inexorable "], ["relentless  "]],[[
+"Maverick"], [" a loner  "]],[[
+"Parsimony "], ["stinginess; frugality; cost-cutting  "]],[[
+"Prosaic "], ["dull; boring; ordinary  "]],[[
+"Smorgasbord "], ["a Swedish buffet of cold dishes  "]],[[
+"Vagrant "], ["person wandering without a home  "]],[[
+"Circumvent"], [" avoid  "]],[[
+"Flagrant "], ["clearly wrong  "]],[[
+"Inexpedient "], ["not advisable  "]],[[
+"Partisan "], ["biased; one-sided; committed to one group  "]],[[
+"Proscribe "], ["forbid  "]],[[
+"Solace "], ["comfort for grief  "]],[[
+"Vapid "], ["dull; uninspiring  "]],[[
+"Infallible "], ["perfect; flawless; cannot make mistakes  "]],[[
+"Meander"], [" wander from side to side  "]],[[
+"Prosody "], ["study of versification  "]],[[
+"Solicit "], ["to ask for; seek  "]],[[
+"Variegated "], ["multicolored; speckled  "]],[[
+"Arcane "], ["obscure; known only to a few people  "]],[[
+"Clamor "], ["shout; scream  "]],[[
+"Discursiveness "], ["long windedness; indirectness  "]],[[
+"Mellow "], ["soft; melodious; ripe  "]],[[
+"Patron "], ["one who give support (usually financial)  "]],[[
+"Prostration "], ["1. lying face down; 2. be overcome with extreme weakness  "]],[[
+"Somnambulist "], ["sleepwalker  "]],[[
+"Vehemence "], ["violence; fervor; forcefulness  "]],[[
+"Clandestine "], ["secret; covert; stealthy  "]],[[
+"Disdain "], ["contempt; strong dislike  "]],[[
+"Flippant "], ["making jokes about serious matters  "]],[[
+"Menagerie "], ["collection of animals  "]],[[
+"Protagonist "], ["main character in film, book, play etc.  "]],[[
+"Soothsayer "], ["fortuneteller  "]],[[
+"Vehement "], ["forceful  "]],[[
+"Archetype "], ["classic example of  "]],[[
+"Clemency "], ["mercy  "]],[[
+"Disinterested "], ["unbiased  "]],[[
+"Flout "], ["defy; reject  "]],[[
+"Ingénue "], ["naïve, unsophisticated person  "]],[[
+"Mendacious "], ["given to lying  "]],[[
+"Paucity "], ["shortage  "]],[[
+"Protean "], ["changeable  "]],[[
+"Sophomoric "], ["juvenile; immature  "]],[[
+"Venal "], ["corrupt; can be bribed  "]],[[
+"Disparage "], ["criticize; belittle  "]],[[
+"Flustered"], [" worked-up; not calm  "]],[[
+"Ingrate "], ["ungrateful person  "]],[[
+"Mercenary "], ["concerned only with money  "]],[[
+"Peccadillo "], ["minor weakness; trivial offence  "]],[[
+"Soporific "], ["inducing sleep  "]],[[
+"Veneer "], ["surface coating  "]],[[
+"Articulate "], ["clear; lucid; eloquent  "]],[[
+"Clientele "], ["customers  "]],[[
+"Disparity "], ["an inequality  "]],[[
+"Fly-by-night "], ["unreliable; disreputable  "]],[[
+"Inimical "], ["hostile  "]],[[
+"Mercurial "], ["volatile; changeable  "]],[[
+"Venerate "], ["revere; worship  "]],[[
+"Artifice "], ["deception; trickery  "]],[[
+"Dispassionate "], ["neutral; objective  "]],[[
+"Forensic "], ["concerned with argument or debate (esp. for legal evidence)  "]],[[
+"Pedestrian "], ["common; mundane; banal  "]],[[
+"Provincial "], ["unsophisticated; narrow-minded  "]],[[
+"Specious "], ["false  "]],[[
+"Venial "], ["minor; unimportant  "]],[[
+"Artisan "], ["craftsman  "]],[[
+"Coddle "], ["pamper; fuss over; indulge  "]],[[
+"Disseminating "], ["circulating; broadcasting; spreading (information)  "]],[[
+"Fortitude "], ["bravery  "]],[[
+"Innocuous "], ["harmless; inoffensive  "]],[[
+"Metaphorically "], ["symbolically; figuratively  "]],[[
+"Peerless "], ["without equal  "]],[[
+"Prudent "], ["cautious; wise  "]],[[
+"Speckled "], ["spotted; freckled; dotted  "]],[[
+"Veracity "], ["truthfulness  "]],[[
+"Ascetic "], ["without luxuries; severely simple  "]],[[
+"Coercion "], ["force  "]],[[
+"Diurnal"], [" active in daytime  "]],[[
+"Fortuitous "], ["happening by chance  "]],[[
+"Innovate "], ["create; introduce something new  "]],[[
+"Meticulous "], ["very careful; painstaking  "]],[[
+"Pejorative "], ["derogatory  "]],[[
+"Puerile "], ["childish  "]],[[
+"Sporadic"], ["not continuous; intermittent  "]],[[
+"Verbose "], ["talkative; long-winded; rambling  "]],[[
+"Assiduous "], ["thorough; diligent  "]],[[
+"Cogent "], ["lucid; well argued  "]],[[
+"Divert "], ["1. entertain; 2. distract; 3. cause a detour  "]],[[
+"Fractious "], ["irritable; difficult to control  "]],[[
+"Inscrutable "], ["mysterious; impenetrable  "]],[[
+"Mettle "], ["courage; bravery; valor  "]],[[
+"Pellucid "], ["transparently clear  "]],[[
+"Punctilious "], ["paying attention to small details  "]],[[
+"Spurious "], ["false  "]],[[
+"Verbosity "], ["using too many words  "]],[[
+"Assuage "], ["to calm  "]],[[
+"Cogitate "], ["think over something; ponder  "]],[[
+"Docile "], ["gentle and easily lead  "]],[[
+"Insentient "], ["unfeeling  "]],[[
+"Milieu "], ["environment  "]],[[
+"Pensive "], ["in a thoughtful mood; thinking deeply  "]],[[
+"Purloin "], ["steal  "]],[[
+"Astute "], ["perceptive; sharp-witted  "]],[[
+"Dogmatic "], ["having stubbornly held opinions  "]],[[
+"Frivolous "], ["not serious  "]],[[
+"Insipid "], ["dull; bland; boring  "]],[[
+"Mire "], ["swamp; muddy ground  "]],[[
+"Penury "], ["poverty  "]],[[
+"Pusillanimous "], ["cowardly  "]],[[
+"Staid "], ["dull; sober; serious  "]],[[
+"Collate "], ["arrange in order  "]],[[
+"Dolt "], ["stupid person  "]],[[
+"Frugal "], ["economical; not wasting anything  "]],[[
+"Instigate "], ["to start; provoke  "]],[[
+"Misanthrope "], ["hater of the rest of mankind  "]],[[
+"Stanza "], ["section of a poem  "]],[[
+"Vignette "], ["small sketch  "]],[[
+"Dotard "], ["foolish old man  "]],[[
+"Furrow "], ["groove  "]],[[
+"Instigator "], ["troublemaker; person who entices others to do something  "]],[[
+"Misnomer "], ["wrong name  "]],[[
+"Percipient "], ["perceptive; insightful  "]],[[
+"Quaff "], ["drink down quickly  "]],[[
+"Staunch "], ["loyal; faithful; dependable  "]],[[
+"Vilification "], ["blackening someone's name  "]],[[
+"Atrophy "], ["waste away from lack of use  "]],[[
+"Drawl "], ["speak slowly with words running together  "]],[[
+"Furtive "], ["hidden and secret  "]],[[
+"Insurgent "], ["a rebel  "]],[[
+"Perdition "], ["damnation  "]],[[
+"Quagmire "], ["marsh; bog  "]],[[
+"Vindicate "], ["prove right; remove blame  "]],[[
+"Attenuate "], ["weaken  "]],[[
+"Commandeer "], ["take possession of  "]],[[
+"Interminable "], ["never-ending  "]],[[
+"Peremptory "], ["in a commanding manner  "]],[[
+"Quaint "], ["picturesque  "]],[[
+"Stevedore "], ["dockworker  "]],[[
+"Virtuoso "], ["an accomplished musician  "]],[[
+"Complacent "], ["self-satisfied; smug  "]],[[
+"Droll "], ["dryly amusing  "]],[[
+"Galleon "], ["ancient type of sailing ship  "]],[[
+"Mitigate "], ["lessen; make less severe  "]],[[
+"Perfidy "], ["treachery  "]],[[
+"Quandary "], ["dilemma; puzzle  "]],[[
+"Stifle "], ["suppress  "]],[[
+"Virulent "], ["dangerous; harmful  "]],[[
+"Auspicious "], ["favorable; promising to turn out well  "]],[[
+"Compliant "], ["easy to control; submissive  "]],[[
+"Drone "], ["1. monotonous noise (n); 2. to speak with no emotion (v); 3.male bee  "]],[[
+"Gambol "], ["frolic; leap; bound  "]],[[
+"Intransigence "], ["stubbornness  "]],[[
+"Modicum "], ["small amount  "]],[[
+"Perfunctory "], ["superficial; cursory  "]],[[
+"Quarantine "], ["isolation to prevent the spread of disease  "]],[[
+"Stoic "], ["known for fortitude; indifferent to pleasure or pain  "]],[[
+"Austere "], ["severely plain  "]],[[
+"Dubious "], ["doubtful  "]],[[
+"Garble "], ["distort; confuse; muddle  "]],[[
+"Intransigent "], ["stubborn; unyielding  "]],[[
+"Peripatetic "], ["nomadic; moving from place to place  "]],[[
+"Quarry "], ["1. something that is hunted; 2. mine for stone  "]],[[
+"Stoke "], ["add fuel to; strengthen  "]],[[
+"Vitriolic "], ["corrosive; strongly attacking  "]],[[
+"Concatenation "], ["linking into chains  "]],[[
+"Dupe "], ["to fool someone  "]],[[
+"Garish "], ["gaudy  "]],[[
+"Intrepid "], ["brave  "]],[[
+"Querulous "], ["always complaining  "]],[[
+"Stolid "], ["impassive; dull; indifferent  "]],[[
+"Vivacity "], ["liveliness; animation  "]],[[
+"Balk "], ["hinder and prevent; hesitate over  "]],[[
+"Conciliate "], ["to bring together; end a dispute  "]],[[
+"Garner "], ["gather; collect  "]],[[
+"Inveterate "], ["habitual  "]],[[
+"Moratorium "], ["temporary prohibition or halt to activity  "]],[[
+"Perjury "], ["telling lies under oath  "]],[[
+"Quirk "], ["oddity  "]],[[
+"Stratagem "], ["plot; plan; trick  "]],[[
+"Vivify "], ["enliven  "]],[[
+"Banal "], ["common; dull  "]],[[
+"Ebullient "], ["very lively; cheerful; jovial; happy  "]],[[
+"Garrulous "], ["talkative  "]],[[
+"Invidious "], ["arousing envy  "]],[[
+"Moribund "], ["on the point of death  "]],[[
+"Pernicious "], ["destructive; harmful  "]],[[
+"Strident "], ["loud and harsh  "]],[[
+"Vociferous "], ["noisy; loud in speech  "]],[[
+"Banality "], ["ordinariness; dullness  "]],[[
+"Gaunt "], ["emaciated; bony and angular  "]],[[
+"Inviolable "], ["cannot be invaded  "]],[[
+"Morose "], ["gloomy; bad tempered  "]],[[
+"Persnickety "], ["fastidious; fussy  "]],[[
+"Ramifications "], ["branches; subdivisions of a complex system; outcomes  "]],[[
+"Stringent "], ["strict or severe  "]],[[
+"Condone "], ["tacitly support; overlook  "]],[[
+"Eclectic "], ["taking things from different sources  "]],[[
+"Irascible "], ["easily angered  "]],[[
+"Perpetuated "], ["caused to continue  "]],[[
+"Rancor "], ["resentment; animosity; bad feeling  "]],[[
+"Strut "], ["swagger; show off  "]],[[
+"Voluble "], ["talkative  "]],[[
+"Bard"], [" poet  "]],[[
+"Edifice "], ["building; structure; construction  "]],[[
+"Germane "], ["relevant  "]],[[
+"Ire "], ["anger [irate (a) = very angry]  "]],[[
+"Munificent "], ["generous; charitable  "]],[[
+"Perpetuity "], ["eternity  "]],[[
+"Stupefying "], ["astonishing; shocking; stunning into silence  "]],[[
+"Voluminous "], ["very large; spacious  "]],[[
+"Bastion "], ["fortress; stronghold  "]],[[
+"Conflagration "], ["big fire  "]],[[
+"Efface "], ["wipe out; remove all trace of  "]],[[
+"Germinal "], ["just growing; not developed; immature  "]],[[
+"Irksome "], ["annoying; infuriating  "]],[[
+"Mutinous "], ["very rebellious  "]],[[
+"Personable "], ["attractive  "]],[[
+"Ratify "], ["approve; consent  "]],[[
+"Subpoena "], ["summons to court  "]],[[
+"Voracious "], ["ravenous  "]],[[
+"Confound "], ["confuse  "]],[[
+"Effigy "], ["a model of a person  "]],[[
+"Myriad "], ["in large numbers  "]],[[
+"Perspicacious "], ["insightful; sharp; wise  "]],[[
+"Raucous "], ["rough and unpleasant (of sounds)  "]],[[
+"Substantiate "], ["give supporting evidence  "]],[[
+"Begrudge "], ["resent  "]],[[
+"Congeal "], ["to solidify  "]],[[
+"Effusive "], ["gushing; demonstrative  "]],[[
+"Glacial "], ["hostile; unfriendly; cold; icy  "]],[[
+"Navigable "], ["suitable for sailing  "]],[[
+"Perspicacity "], ["insight  "]],[[
+"Raze "], ["destroy; demolish; tear down  "]],[[
+"Subterfuge "], ["a trick  "]],[[
+"Wane "], ["grow less  "]],[[
+"Beguile "], ["mislead; lure  "]],[[
+"Congenital "], ["present from birth  "]],[[
+"Egalitarianism "], ["belief in equality  "]],[[
+"Goad "], ["prod; urge  "]],[[
+"Irreproachable "], ["cannot be criticized; perfect  "]],[[
+"Nebulous "], ["vague  "]],[[
+"Pertinent "], ["relevant  "]],[[
+"Rebuttal "], ["denial  "]],[[
+"Wary "], ["hesitant; cautious  "]],[[
+"Belabor "], ["explain in unnecessary detail  "]],[[
+"Egregious "], ["outstandingly, obviously bad  "]],[[
+"Grate "], ["(v) 1. to annoy; aggravate; vex; 2. shred  "]],[[
+"Irrevocable "], ["cannot be cancelled; unchangeable  "]],[[
+"Nefarious "], ["wicked; immoral; disreputable  "]],[[
+"Peruse "], ["read carefully  "]],[[
+"Recant "], ["disclaim; retract statement  "]],[[
+"Subversive "], ["rebellious; revolutionary  "]],[[
+"Wax "], ["to increase; to grow  "]],[[
+"Beleaguer "], ["besiege; attack  "]],[[
+"Consecrate "], ["dedicate  "]],[[
+"Egress "], ["exit  "]],[[
+"Itinerant "], ["nomadic; wandering from place to place  "]],[[
+"Pervasive "], ["spreading everywhere  "]],[[
+"Recapitulate "], ["summarize  "]],[[
+"Waylay"], [" accost; stop; approach; hinder  "]],[[
+"Belie "], ["contradict  "]],[[
+"Eloquent "], ["fluent and persuasive in speech  "]],[[
+"Gratuitous "], ["unwarranted  "]],[[
+"Receptacle "], ["container; vessel; holder  "]],[[
+"Suffragist "], ["someone who campaigns for voting rights  "]],[[
+"Conspicuous "], ["easily seen; prominent  "]],[[
+"Elucidate "], ["make clear  "]],[[
+"Neologism "], ["newly coined word  "]],[[
+"Petulant "], ["sulky; peevish  "]],[[
+"Recluse "], ["someone who cuts himself off from life  "]],[[
+"Supercilious "], ["proud and haughty  "]],[[
+"Whelp "], ["young dog  "]],[[
+"Bellicose "], ["war-like; aggressive  "]],[[
+"Consummate "], ["complete; total; supremely good  "]],[[
+"Elusive "], ["hard to pin down  "]],[[
+"Gregarious "], ["extroverted; sociable; outgoing  "]],[[
+"Jaundiced "], ["cynical; pessimistic  "]],[[
+"Nettle "], ["annoy  "]],[[
+"Superlative "], ["extremely good; the best  "]],[[
+"Whet "], ["sharpen  "]],[[
+"Belligerent "], ["aggressive; ready to fight  "]],[[
+"Emaciated "], ["very thin; withered  "]],[[
+"Gritty "], ["coarse; granular  "]],[[
+"Jaunt "], ["short pleasure trip  "]],[[
+"Niggardly "], ["miserly; stingy  "]],[[
+"Philanthropy "], ["charity; love of mankind  "]],[[
+"Surly "], ["grumpy; rude  "]],[[
+"Bemoan "], ["complain about  "]],[[
+"Contrite "], ["sorry  "]],[[
+"Guffaw "], ["sudden loud laughter  "]],[[
+"Redolent "], ["smelling of; giving off odors  "]],[[
+"Surreptitious "], ["secret; sneaky; stealthy  "]],[[
+"Contrition "], ["sorrow and repentance  "]],[[
+"Guile "], ["cunning; craftiness  "]],[[
+"Jingoistic "], ["extremely patriotic; nationalistic  "]],[[
+"Nonchalance "], ["an appearance of indifference; calm and composed  "]],[[
+"Phlegmatic "], ["calm; imperturbable  "]],[[
+"Redress "], ["put right something that was wrong  "]],[[
+"Surreptitiously "], ["secretly; furtively; stealthily  "]],[[
+"Wily "], ["cunning  "]],[[
+"Benign "], ["kindly; harmless  "]],[[
+"Contumacious "], ["stubborn  "]],[[
+"Embroil "], ["involve in hostility or argument  "]],[[
+"Guileless "], ["frank; straightforward; honest  "]],[[
+"Jocular "], ["in a joking manner  "]],[[
+"Nondescript "], ["having no special features; dull and ordinary  "]],[[
+"Wispy "], ["flimsy; frail; delicate  "]],[[
+"Benignity "], ["compassion; gentleness; fondness  "]],[[
+"Nonentity "], ["a person of no importance; not famous  "]],[[
+"Pinnacle "], ["topmost point  "]],[[
+"Suspect "], ["doubtful  "]],[[
+"Wistful "], ["melancholy; pensive; expressing a longing for  "]],[[
+"Bequeath "], ["leave something in one's will to be given after one's death "]],[[
+"Emulate "], ["to imitate something admired "]],[[
+"Sybarite "], ["lover of luxury "]],[[
+"Berate "], ["scold; criticize  "]],[[
+"Gustatory "], ["concerned with the sense of taste  "]],[[
+"Judicious "], ["correct in judgment; wise  "]],[[
+"Notoriety "], ["infamy; known for wrong doing  "]],[[
+"Regale "], ["entertain  "]],[[
+"Sycophant "], ["bootlicker; flatterer  "]],[[
+"Corpulent "], ["fat  "]],[[
+"Hackneyed "], ["common and over-used  "]],[[
+"Jurisprudence "], ["science or study of law  "]],[[
+"Placate "], ["pacify; soothe; calm  "]],[[
+"Relegate "], ["dismiss to a lower position  "]],[[
+"Taciturn "], ["quiet; saying little  "]],[[
+"Zealot "], ["fanatic  "]],[[
+"Bestial "], ["behaving like a beast; brutal  "]],[[
+"Juxtapose "], ["place next to  "]],[[
+"Tactile "], ["concerned with the sense of touch  "
+]],[["Parsimonious"], ["Extremely frugal or thrifty"
+]],[["Perspicacious"], ["Able to perceive or understand difficult things"
+]],[["Pertinacious"], ["Stubbornly persistent"
+]],[["Pusillanimous"], ["Lacking courage"
+]],[["Pugnacious"], ["Eager to engage in a fight"
+]],[["Languid"], ["Lacking energy or vitality"
+]],[["Lurid"], ["Colored or detailed in a way that causes shock and disgust"
+]],[["Epicure"], ["A person with refined tastes in food and drink"
+]],[["Epigram"], ["A short, witty poem or saying"
+]],[["Epigraph"], ["A quotation inscribed on s building or at the beggining of a literary work"
+]],[["Epitaph"], ["A commemorative inscription on a tombestone"
+]],[["Epithet"], ["A descriptive word or phrase added to a person's name"
+]],[["Xanthocomic"], ["Xanthos was the Ancient Greek word for “yellow,” and as such is the root of a number of mainly scientific words referring to yellow-colored things. So, if you’re xanthocomic, you have yellow hair; if you’re xanthocroic you have fair hair and pale skin; and if you’re xanthodontous, you have yellow teeth."
+]],[["Xenial"], ["The adjective xenial is used to describe a friendly relationship between two parties, in particular between a hospitable host and his or her guests, or diplomatically between two countries"
+]],[["Xeniatrophobia"], ["Fear of unaquainted doctors"
+]],[["Xeniation"], ["A 19th century word meaning the act of traveling as a stranger."
+]],[["Xenocracy"], [" A government formed by foreigners or outsiders is a xenocracy. A member of one is a xenocrat"
+]],[["Xenodocheionology"], ["the lore of hotels and inns"
+]],[["Xenodochium"], ["A guesthouse or hostel, or any similar stopping place for travelers or pilgrims."
+]],[["Xenodochy"], ["A 17th century word for hospitality. If you’re xenodochial then you like to entertain strangers."
+]],[["Xenoglossy"], ["The ability to speak a language that you’ve apparently never learnt."
+]],[["Xenology"], ["study of extraterrestrial life forms is xenobiology."
+]],[["Xenomorph"], ["Something unusually or irregularly shaped is a [this]—which is why it’s become another name for the eponymous creature in the Alien film franchise."
+]],[["Xenotransplantation"], ["Transplanting organic matter from a non-human into a human (like a pig’s heart valve into a human heart) is called xenotransplantation. Whatever it is that’s transplanted is called the xenograft."
+]],[["Xeriscape"], ["If you live in a xeric area, then you’ll have to [this] your garden. It’s the deliberate use of plants that need relatively little moisture or irrigation to landscape an arid location."
+]],[["Xerochilia"], ["The medical name for having dry lips. Having a dry mouth is xerostomia."
+]],[["Xerophagy"], ["The eating of dry food"
+]],[["Xesturgy"], ["The proper name for the process of polishing."
+]],[["Xilinous"], ["Something described as xilinous resembles or feels like cotton"
+]],[["Xiphoid"], ["something described as xiphoid resembles a sword."
+]],[["Xoanon"], ["Derived from the Greek for “carve” or “scrape,” a [this] is a carved idol of a deity."
+]],[["Xylographer"], ["A 19th century word for a wood engraver."
+]],[["Xyloid"], ["Why say that something is “woody” when you can say that it’s [this]?"
+]],[["Xylopolist"], ["A 17th century formal name for a timber merchant."
+]],[["Xylotomous"], ["Describes anything or anyone particularly good at wood-cutting or wood-boring."
+]],[["Xyresic"], ["Means “razor-sharp.”"
+]],[["Xylanthrax"], ["Nowhere near as nasty as it sounds, this is just an old name for what we now call charcoal."
+]],[["Ughten"], ["the part of the night immediately before daybreak"
+]],[["Ullage"], ["the amount of empty space between the top of a vessel or container and its contents"
+]],[["ulotrichous"], ["having tightly-curled hair"
+]],[["ultracrepidarian"], ["someone who talks about or passes judgment on a subject outside of their own area of expertise"
+]],[["umbriphilous"], ["to love to be in the shade"
+/*]],[[""], [""
+]],[[""], [""
+]],[[""], [""
+]],[[""], [""
+]],[[""], [""*/
+]]]
+
+
+//document.getElementById('i').innerHTML = words.length;
+
+
+var g = 0;
+var h = 0;
+var b;
+var errors = [];
+var text;
+
+function next()
+{
+a = Math.round(Math.random()*(words.length -1));
+c = Math.round(Math.random()*(words.length -1));
+d = Math.round(Math.random()*(words.length -1));
+
+document.getElementById('i').innerHTML = words[a][0];
+
+ w = Math.round(Math.random()*3 + 0.5);
+ 
+document.getElementById('icle').innerHTML = w; 
+
+if (w == 1){
+	document.getElementById('b1').innerHTML = words[a][1]
+	document.getElementById('b2').innerHTML = words[c][1]
+	document.getElementById('b3').innerHTML = words[d][1]
+}
+
+if (w == 2){
+	document.getElementById('b1').innerHTML = words[c][1]
+	document.getElementById('b2').innerHTML = words[a][1]
+	document.getElementById('b3').innerHTML = words[d][1]
+}
+
+if (w == 3){
+	document.getElementById('b1').innerHTML = words[d][1]
+	document.getElementById('b2').innerHTML = words[c][1]
+	document.getElementById('b3').innerHTML = words[a][1]
+}
+
+document.getElementById('f').innerHTML = (g/h)*100 + "%";
+document.getElementById('z').innerHTML = g + "/" + h;
+}
+
+next();
+
+function f1() {
+        h++;
+	b = 1;
+	if (b == w){
+		document.getElementById('e').innerHTML = "Correct";
+g++;		
+}
+		
+	else {
+		document.getElementById('e').innerHTML = "Incorrect ;" + words[a][0] + "=" + words[a][1];
+		errors.push(words[a][0] + "=" + words[a][1]);
+	}
+
+next();
+}
+
+function f2() {
+        h++;
+	b = 2;
+	if (b == w){
+		document.getElementById('e').innerHTML = "Correct";
+g++;		
+}
+		
+	else {
+		document.getElementById('e').innerHTML = "Incorrect ;" + words[a][0] + "="  + words[a][1];
+		errors.push(words[a][0] + "=" + words[a][1]);
+	}
+	
+next(); 
+}
+
+function f3() {
+        h++;
+	b = 3;
+	if (b == w){
+		document.getElementById('e').innerHTML = "Correct";
+g++;		
+}
+		
+	else {
+		document.getElementById('e').innerHTML = "Incorrect ;" + words[a][0] + "=" + words[a][1];
+		errors.push(words[a][0] + "=" + words[a][1]);
+	}
+	
+next();
+}
+
+function f4() {
+    text = "";
+	for (io = 0; io < errors.length; io++) { 
+		text += errors[io] + "<br>";
+	}
+	document.getElementById('er').innerHTML = text;
+}
+
+</script>
